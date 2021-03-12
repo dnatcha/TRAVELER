@@ -1,6 +1,6 @@
 Unq_ID;DataOrigin;TraitName;TraitDef;TraitValue;TraitUnit;Time;TimeUnit;Location_cod;Location_sov;Samplesize;SamplesizeUnit;SamplesizeSqrt;Antibiotics ;Note;Origin
 1;Stewardson et al 2014;CommunityESBL;ESBL percentage in Food handler in hospital;7;percent;2012;year;CH;Switzerland;91;person;9.54;MDR;Geneva university hospital;
-1;Stewardson et al 2014;AnimalESBL;ESBL percentage in chicken meat in hospital;92;percent;2012;year;CH;Switzerland;132;samples;11.49;MDR;Geneva university hospital;
+1;Stewardson et al 2014;AnimalESBL;ESBL percentage in chicken meat in hospital;92;percent;2012;year;CH;Switzerland;132;samples;11.49;MDR;Geneva university hospital;chicken
 2;Nakayama et al 2015 ;CommunityESBL;ESBL carriage ;72;percent;2012;year;LA;Lao PDR;57;person;7.55;MDR;Sawanalet;
 2;Nakayama et al 2015 ;CommunityESBL;ESBL carriage ;69;percent;2012;year;TH;Thailand;417;person;20.42;MDR;Kanchanaburi;
 2;Nakayama et al 2015 ;CommunityESBL;ESBL carriage ;51;percent;2013;year;VN;Vietnam;198;person;14.07;MDR;Bavi&Hanoi;
@@ -47,300 +47,299 @@ Unq_ID;DataOrigin;TraitName;TraitDef;TraitValue;TraitUnit;Time;TimeUnit;Location
 8;Wu et al 2013;CommunityESBL;ESBL gene prevalence in adult;0;percent;2005-2009';year;GB;United Kingdom;152;isolates;12.33;CMY-611;;
 8;Wu et al 2013;CommunityESBL;ESBL gene prevalence in adult;5;percent;2005-2009';year;GB;United Kingdom;152;isolates;12.33;CMY-11;;
 8;Wu et al 2013;CommunityESBL;ESBL gene prevalence in adult;10;percent;2005-2009';year;GB;United Kingdom;152;isolates;12.33;MOX;;
-8;Wu et al 2013;AnimalESBL;ESBL gene prevalence in Chicken host;18;percent;2005-2009';year;DE;Germany;11;isolates;3.32;CTX-M-1;;
-8;Wu et al 2013;AnimalESBL;ESBL gene prevalence in Chicken host;0;percent;2005-2009';year;DE;Germany;11;isolates;3.32;CTX-M-9;;
-8;Wu et al 2013;AnimalESBL;ESBL gene prevalence in Chicken host;0;percent;2005-2009';year;DE;Germany;11;isolates;3.32;SHV;;
-8;Wu et al 2013;AnimalESBL;ESBL gene prevalence in Chicken host;72;percent;2005-2009';year;DE;Germany;11;isolates;3.32;CMY-611;;
-8;Wu et al 2013;AnimalESBL;ESBL gene prevalence in Chicken host;73;percent;2005-2009';year;DE;Germany;11;isolates;3.32;CMY-11;;
-8;Wu et al 2013;AnimalESBL;ESBL gene prevalence in Chicken host;0;percent;2005-2009';year;DE;Germany;11;isolates;3.32;MOX;;
-8;Wu et al 2013;AnimalESBL;ESBL gene prevalence in Chicken host;54;percent;2005-2009';year;NL;Netherlands;136;isolates;11.66;CTX-M-1;;
-8;Wu et al 2013;AnimalESBL;ESBL gene prevalence in Chicken host;1;percent;2005-2009';year;NL;Netherlands;136;isolates;11.66;CTX-M-9;;
-8;Wu et al 2013;AnimalESBL;ESBL gene prevalence in Chicken host;6;percent;2005-2009';year;NL;Netherlands;136;isolates;11.66;SHV;;
-8;Wu et al 2013;AnimalESBL;ESBL gene prevalence in Chicken host;20;percent;2005-2009';year;NL;Netherlands;136;isolates;11.66;CMY-611;;
-8;Wu et al 2013;AnimalESBL;ESBL gene prevalence in Chicken host;19;percent;2005-2009';year;NL;Netherlands;136;isolates;11.66;CMY-11;;
-8;Wu et al 2013;AnimalESBL;ESBL gene prevalence in Chicken host;4;percent;2005-2009';year;NL;Netherlands;136;isolates;11.66;MOX;;
-8;Wu et al 2013;AnimalESBL;ESBL gene prevalence in Chicken host;100;percent;2005-2009';year;GB;United Kingdom;10;isolates;3.16;CTX-M-1;;
-8;Wu et al 2013;AnimalESBL;ESBL gene prevalence in Chicken host;0;percent;2005-2009';year;GB;United Kingdom;10;isolates;3.16;CTX-M-9;;
-8;Wu et al 2013;AnimalESBL;ESBL gene prevalence in Chicken host;0;percent;2005-2009';year;GB;United Kingdom;10;isolates;3.16;SHV;;
-8;Wu et al 2013;AnimalESBL;ESBL gene prevalence in Chicken host;0;percent;2005-2009';year;GB;United Kingdom;10;isolates;3.16;CMY-611;;
-8;Wu et al 2013;AnimalESBL;ESBL gene prevalence in Chicken host;0;percent;2005-2009';year;GB;United Kingdom;10;isolates;3.16;CMY-11;;
-8;Wu et al 2013;AnimalESBL;ESBL gene prevalence in Chicken host;0;percent;2005-2009';year;GB;United Kingdom;10;isolates;3.16;MOX;;
-9;Aliyu et al 2016;AnimalESBL;ESBL gene prevalence in Chicken meat;49;percent;2012-2013;year;MY;Malaysia;240;isolates;15.49;CTX;Salangor;
-10;Carmo et al 2014;AnimalESBL;ESBL gene prevalence in pork meat;1.2;percent;2009-2011;year;DK;Denmark;562;isolates;8.94;MDR;;
-10;Carmo et al 2014;AnimalESBL;ESBL gene prevalence in beef meat;0.5;percent;2009-2011;year;DK;Denmark;382;isolates;;;;
-10;Carmo et al 2014;AnimalESBL;ESBL gene prevalence in Chicken meat;17.8;percent;2009-2011;year;DK;Denmark;440;isolates;;;;
-10;Carmo et al 2014;AnimalESBL;ESBL gene prevalence in pork meat;2.4;percent;2009-2011;year;EU;EU;448;isolates;;;;
-10;Carmo et al 2014;AnimalESBL;ESBL gene prevalence in beef meat;1.1;percent;2009-2011;year;EU;EU;298;isolates;;;;
-10;Carmo et al 2014;AnimalESBL;ESBL gene prevalence in Chicken meat;44.7;percent;2009-2011;year;EU;EU;571;isolates;;;;
-12; Ye Q et al 2018;AnimalESBL;ESBL gene prevalence in Chicken meat;24;percent;2018;year;CL;China;42;isolates;6.48;;Henan;
-13;Wu H et al 2018;AnimalESBL;ESBL gene prevalence in Chicken meat;24;percent;2008;year;CL;China;105;isolates;10.25;;;
-13;Wu H et al 2018;AnimalESBL;ESBL gene prevalence in Chicken meat;26;percent;2009;year;CL;China;140;isolates;11.83;;;
-13;Wu H et al 2018;AnimalESBL;ESBL gene prevalence in Chicken meat;41;percent;2010;year;CL;China;102;isolates;10.1;;;
-13;Wu H et al 2018;AnimalESBL;ESBL gene prevalence in Chicken meat;45;percent;2011;year;CL;China;127;isolates;11.27;;;
-13;Wu H et al 2018;AnimalESBL;ESBL gene prevalence in Chicken meat;50;percent;2012;year;CL;China;115;isolates;10.72;;;
-13;Wu H et al 2018;AnimalESBL;ESBL gene prevalence in Chicken meat;50;percent;2013;year;CL;China;118;isolates;10.86;;;
-13;Wu H et al 2018;AnimalESBL;ESBL gene prevalence in Chicken meat;57;percent;2014;year;CL;China;114;isolates;10.68;;;
-14;Li S et al  2016;AnimalESBL;prevalence ESBL-EC;89;percent;2014-2015;year;CL;China;169;isolates;13;MDR;fecal isolate;
-15;Wu H et al 2016;AnimalESBL;chicken meat prevalence ESBL salmonella;97;percent;2013;year;CL;China;90;isolates;9.49;MDR;Wet market;
-16;Kuang X et al 2015;AnimalESBL;Confirmed ESBL producer ;5;percent;2010;year;CL;China;159;isolates;12.61;MDR;;
-17;Wu H et al 2013;AnimalESBL;chicken meat prevalence ESBL salmonella;9;percent;2011;year;CL;China;699;isolates;26.44;MDR;6 provinces supermarkt and wetmarket;
-17;Wu H et al 2013;AnimalESBL;chicken meat prevalence ESBL salmonella;25;percent;2011;year;CL;China;69;isolates;8.31;MDR;Shanghai city ;
-17;Wu H et al 2013;AnimalESBL;chicken meat prevalence ESBL salmonella;15;percent;2011;year;CL;China;65;isolates;8.06;MDR;Shaanxi;
-17;Wu H et al 2013;AnimalESBL;chicken meat prevalence ESBL salmonella;12;percent;2011;year;CL;China;77;isolates;8.77;MDR;Fujian;
-17;Wu H et al 2013;AnimalESBL;chicken meat prevalence ESBL salmonella;8;percent;2011;year;CL;China;117;isolates;10.82;MDR;Guangdong;
-17;Wu H et al 2013;AnimalESBL;chicken meat prevalence ESBL salmonella;7;percent;2011;year;CL;China;69;isolates;8.31;MDR;Sichuan;
-17;Wu H et al 2013;AnimalESBL;chicken meat prevalence ESBL salmonella;5;percent;2011;year;CL;China;116;isolates;10.77;MDR;Beijing;
-17;Wu H et al 2013;AnimalESBL;chicken meat prevalence ESBL salmonella;5;percent;2011;year;CL;China;86;isolates;9.27;MDR;Henan ;
-17;Wu H et al 2013;AnimalESBL;chicken meat prevalence ESBL salmonella;0;percent;2011;year;CL;China;100;isolates;10;MDR;Guangxi;
-18;Tansawai et al 2017;AnimalESBL;number of cefotaxime positiveEcli in chicken;55;percent;2011;year;TH;Thailand;126;isolates;11.22;cefotaxime ;Phitsanulok;
-18;Tansawai et al 2017;AnimalESBL;number of cefotaxime positiveEcli in birds;50;percent;2011;year;TH;Thailand;18;isolates;4.24;cefotaxime;Phitsanulok;
-18;Tansawai et al 2017;AnimalESBL;number of cefotaxime positiveEcli in chicken;37;percent;2011;year;TH;Thailand;126;isolates;11.22;ESBL;Phitsanulok;
-18;Tansawai et al 2017;AnimalESBL;number of cefotaxime positiveEcli in birds;50;percent;2011;year;TH;Thailand;18;isolates;4.24;ESBL;Phitsanulok;
-18;Tansawai et al 2017;AnimalESBL;number of cefotaxime positiveEcli in chicken;66;percent;2011;year;TH;Thailand;92;isolates;9.59;cefotaxime ;Phitsanulok;
-18;Tansawai et al 2017;AnimalESBL;number of cefotaxime positiveEcli in duck;36;percent;2011;year;TH;Thailand;11;isolates;3.32;cefotaxime;Phitsanulok;
-18;Tansawai et al 2017;AnimalESBL;number of cefotaxime positiveEcli in chicken;45;percent;2011;year;TH;Thailand;92;isolates;9.59;ESBL ;Phitsanulok;
-18;Tansawai et al 2017;AnimalESBL;number of cefotaxime positiveEcli in duck;36;percent;2011;year;TH;Thailand;11;isolates;3.32;ESBL ;Phitsanulok;
-19;Nguyen T et al 2015;AnimalESBL;prevalence resistance;86;percent;2015;year;VN;Vietnam;895;isolates;29.92;ampicillin;Mekong Delta;
-19;Nguyen T et al 2015;AnimalESBL;prevalence resistance;48;percent;2015;year;VN;Vietnam;895;isolates;29.92;Amoxicillin-clavulanic acid;Mekong Delta;
-19;Nguyen T et al 2015;AnimalESBL;prevalence resistance;2;percent;2015;year;VN;Vietnam;895;isolates;29.92;ceftazidime;Mekong Delta;
-19;Nguyen T et al 2015;AnimalESBL;prevalence resistance;3;percent;2015;year;VN;Vietnam;895;isolates;29.92;ceftriaxone;Mekong Delta;
-19;Nguyen T et al 2015;AnimalESBL;prevalence resistance;3;percent;2015;year;VN;Vietnam;895;isolates;29.92;Third gen cephalosporin;Mekong Delta;
-19;Nguyen T et al 2015;AnimalESBL;prevalence resistance;0;percent;2015;year;VN;Vietnam;895;isolates;29.92;ESBL ;Mekong Delta;
-20;Hussain et al 2017;AnimalESBL;ESBL prevalence in broiler meat;24;percent;2015;year;IN;India;32;meat samples;12.96;ESBL ;total meat and ceca isolates;
-20;Hussain et al 2017;AnimalESBL;ESBL prevalence in free range meat;9;percent;2015;year;IN;India;12;meat samples;7.94;CTX;total meat and ceca isolates;
-21;Bhoomika et al 2016;AnimalESBL;ESBL gene prevalence in chicken meat;3;percent;2014;year;IN;India;98;isolates;9.9;MDR;Jagdalpur, Dantewada, Kanker, and Kondagaon districts of Chhattisgarh;
-21;Bhoomika et al 2016;AnimalESBL;ESBL gene prevalence in goat meat;18;percent;2014;year;IN;India;82;samples;;;;
-21;Bhoomika et al 2016;AnimalESBL;ESBL gene prevalence in milk;12;percent;2014;year;IN;India;90;samples;;;;
+8;Wu et al 2013;AnimalESBL;ESBL gene prevalence in Chicken host;18;percent;2005-2009';year;DE;Germany;11;isolates;3.32;CTX-M-1;;chicken
+8;Wu et al 2013;AnimalESBL;ESBL gene prevalence in Chicken host;0;percent;2005-2009';year;DE;Germany;11;isolates;3.32;CTX-M-9;;chicken
+8;Wu et al 2013;AnimalESBL;ESBL gene prevalence in Chicken host;0;percent;2005-2009';year;DE;Germany;11;isolates;3.32;SHV;;chicken
+8;Wu et al 2013;AnimalESBL;ESBL gene prevalence in Chicken host;72;percent;2005-2009';year;DE;Germany;11;isolates;3.32;CMY-611;;chicken
+8;Wu et al 2013;AnimalESBL;ESBL gene prevalence in Chicken host;73;percent;2005-2009';year;DE;Germany;11;isolates;3.32;CMY-11;;chicken
+8;Wu et al 2013;AnimalESBL;ESBL gene prevalence in Chicken host;0;percent;2005-2009';year;DE;Germany;11;isolates;3.32;MOX;;chicken
+8;Wu et al 2013;AnimalESBL;ESBL gene prevalence in Chicken host;54;percent;2005-2009';year;NL;Netherlands;136;isolates;11.66;CTX-M-1;;chicken
+8;Wu et al 2013;AnimalESBL;ESBL gene prevalence in Chicken host;1;percent;2005-2009';year;NL;Netherlands;136;isolates;11.66;CTX-M-9;;chicken
+8;Wu et al 2013;AnimalESBL;ESBL gene prevalence in Chicken host;6;percent;2005-2009';year;NL;Netherlands;136;isolates;11.66;SHV;;chicken
+8;Wu et al 2013;AnimalESBL;ESBL gene prevalence in Chicken host;20;percent;2005-2009';year;NL;Netherlands;136;isolates;11.66;CMY-611;;chicken
+8;Wu et al 2013;AnimalESBL;ESBL gene prevalence in Chicken host;19;percent;2005-2009';year;NL;Netherlands;136;isolates;11.66;CMY-11;;chicken
+8;Wu et al 2013;AnimalESBL;ESBL gene prevalence in Chicken host;4;percent;2005-2009';year;NL;Netherlands;136;isolates;11.66;MOX;;chicken
+8;Wu et al 2013;AnimalESBL;ESBL gene prevalence in Chicken host;100;percent;2005-2009';year;GB;United Kingdom;10;isolates;3.16;CTX-M-1;;chicken
+8;Wu et al 2013;AnimalESBL;ESBL gene prevalence in Chicken host;0;percent;2005-2009';year;GB;United Kingdom;10;isolates;3.16;CTX-M-9;;chicken
+8;Wu et al 2013;AnimalESBL;ESBL gene prevalence in Chicken host;0;percent;2005-2009';year;GB;United Kingdom;10;isolates;3.16;SHV;;chicken
+8;Wu et al 2013;AnimalESBL;ESBL gene prevalence in Chicken host;0;percent;2005-2009';year;GB;United Kingdom;10;isolates;3.16;CMY-611;;chicken
+8;Wu et al 2013;AnimalESBL;ESBL gene prevalence in Chicken host;0;percent;2005-2009';year;GB;United Kingdom;10;isolates;3.16;CMY-11;;chicken
+8;Wu et al 2013;AnimalESBL;ESBL gene prevalence in Chicken host;0;percent;2005-2009';year;GB;United Kingdom;10;isolates;3.16;MOX;;chicken
+9;Aliyu et al 2016;AnimalESBL;ESBL gene prevalence in Chicken meat;49;percent;2012-2013;year;MY;Malaysia;240;isolates;15.49;CTX;Salangor;chicken
+10;Carmo et al 2014;AnimalESBL;ESBL gene prevalence in pork meat;1.2;percent;2009-2011;year;DK;Denmark;562;isolates;8.94;MDR;;pig
+10;Carmo et al 2014;AnimalESBL;ESBL gene prevalence in beef meat;0.5;percent;2009-2011;year;DK;Denmark;382;isolates;;;;cow
+10;Carmo et al 2014;AnimalESBL;ESBL gene prevalence in Chicken meat;17.8;percent;2009-2011;year;DK;Denmark;440;isolates;;;;chicken
+10;Carmo et al 2014;AnimalESBL;ESBL gene prevalence in pork meat;2.4;percent;2009-2011;year;EU;EU;448;isolates;;;;pig
+10;Carmo et al 2014;AnimalESBL;ESBL gene prevalence in beef meat;1.1;percent;2009-2011;year;EU;EU;298;isolates;;;;cow
+10;Carmo et al 2014;AnimalESBL;ESBL gene prevalence in Chicken meat;44.7;percent;2009-2011;year;EU;EU;571;isolates;;;;chicken
+12; Ye Q et al 2018;AnimalESBL;ESBL gene prevalence in Chicken meat;24;percent;2018;year;CL;China;42;isolates;6.48;;Henan;chicken
+13;Wu H et al 2018;AnimalESBL;ESBL gene prevalence in Chicken meat;24;percent;2008;year;CL;China;105;isolates;10.25;;;chicken
+13;Wu H et al 2018;AnimalESBL;ESBL gene prevalence in Chicken meat;26;percent;2009;year;CL;China;140;isolates;11.83;;;chicken
+13;Wu H et al 2018;AnimalESBL;ESBL gene prevalence in Chicken meat;41;percent;2010;year;CL;China;102;isolates;10.1;;;chicken
+13;Wu H et al 2018;AnimalESBL;ESBL gene prevalence in Chicken meat;45;percent;2011;year;CL;China;127;isolates;11.27;;;chicken
+13;Wu H et al 2018;AnimalESBL;ESBL gene prevalence in Chicken meat;50;percent;2012;year;CL;China;115;isolates;10.72;;;chicken
+13;Wu H et al 2018;AnimalESBL;ESBL gene prevalence in Chicken meat;50;percent;2013;year;CL;China;118;isolates;10.86;;;chicken
+13;Wu H et al 2018;AnimalESBL;ESBL gene prevalence in Chicken meat;57;percent;2014;year;CL;China;114;isolates;10.68;;;chicken
+14;Li S et al  2016;AnimalESBL;prevalence ESBL-EC;89;percent;2014-2015;year;CL;China;169;isolates;13;MDR;fecal isolate;chicken
+16;Kuang X et al 2015;AnimalESBL;Confirmed ESBL producer ;5;percent;2010;year;CL;China;159;isolates;12.61;MDR;;chicken
+17;Wu H et al 2013;AnimalESBL;chicken meat prevalence ESBL salmonella;9;percent;2011;year;CL;China;699;isolates;26.44;MDR;6 provinces supermarkt and wetmarket;chicken
+17;Wu H et al 2013;AnimalESBL;chicken meat prevalence ESBL salmonella;25;percent;2011;year;CL;China;69;isolates;8.31;MDR;Shanghai city ;chicken
+17;Wu H et al 2013;AnimalESBL;chicken meat prevalence ESBL salmonella;15;percent;2011;year;CL;China;65;isolates;8.06;MDR;Shaanxi;chicken
+17;Wu H et al 2013;AnimalESBL;chicken meat prevalence ESBL salmonella;12;percent;2011;year;CL;China;77;isolates;8.77;MDR;Fujian;chicken
+17;Wu H et al 2013;AnimalESBL;chicken meat prevalence ESBL salmonella;8;percent;2011;year;CL;China;117;isolates;10.82;MDR;Guangdong;chicken
+17;Wu H et al 2013;AnimalESBL;chicken meat prevalence ESBL salmonella;7;percent;2011;year;CL;China;69;isolates;8.31;MDR;Sichuan;chicken
+17;Wu H et al 2013;AnimalESBL;chicken meat prevalence ESBL salmonella;5;percent;2011;year;CL;China;116;isolates;10.77;MDR;Beijing;chicken
+17;Wu H et al 2013;AnimalESBL;chicken meat prevalence ESBL salmonella;5;percent;2011;year;CL;China;86;isolates;9.27;MDR;Henan ;chicken
+17;Wu H et al 2013;AnimalESBL;chicken meat prevalence ESBL salmonella;0;percent;2011;year;CL;China;100;isolates;10;MDR;Guangxi;chicken
+18;Tansawai et al 2017;AnimalESBL;number of cefotaxime positiveEcli in chicken;55;percent;2011;year;TH;Thailand;126;isolates;11.22;cefotaxime ;Phitsanulok;chicken
+18;Tansawai et al 2017;AnimalESBL;number of cefotaxime positiveEcli in birds;50;percent;2011;year;TH;Thailand;18;isolates;4.24;cefotaxime;Phitsanulok;chicken
+18;Tansawai et al 2017;AnimalESBL;number of cefotaxime positiveEcli in chicken;37;percent;2011;year;TH;Thailand;126;isolates;11.22;ESBL;Phitsanulok;chicken
+18;Tansawai et al 2017;AnimalESBL;number of cefotaxime positiveEcli in birds;50;percent;2011;year;TH;Thailand;18;isolates;4.24;ESBL;Phitsanulok;chicken
+18;Tansawai et al 2017;AnimalESBL;number of cefotaxime positiveEcli in chicken;66;percent;2011;year;TH;Thailand;92;isolates;9.59;cefotaxime ;Phitsanulok;chicken
+18;Tansawai et al 2017;AnimalESBL;number of cefotaxime positiveEcli in duck;36;percent;2011;year;TH;Thailand;11;isolates;3.32;cefotaxime;Phitsanulok;chicken
+18;Tansawai et al 2017;AnimalESBL;number of cefotaxime positiveEcli in chicken;45;percent;2011;year;TH;Thailand;92;isolates;9.59;ESBL ;Phitsanulok;chicken
+18;Tansawai et al 2017;AnimalESBL;number of cefotaxime positiveEcli in duck;36;percent;2011;year;TH;Thailand;11;isolates;3.32;ESBL ;Phitsanulok;chicken
+19;Nguyen T et al 2015;AnimalESBL;prevalence resistance;86;percent;2015;year;VN;Vietnam;895;isolates;29.92;ampicillin;Mekong Delta;chicken
+19;Nguyen T et al 2015;AnimalESBL;prevalence resistance;48;percent;2015;year;VN;Vietnam;895;isolates;29.92;Amoxicillin-clavulanic acid;Mekong Delta;chicken
+19;Nguyen T et al 2015;AnimalESBL;prevalence resistance;2;percent;2015;year;VN;Vietnam;895;isolates;29.92;ceftazidime;Mekong Delta;chicken
+19;Nguyen T et al 2015;AnimalESBL;prevalence resistance;3;percent;2015;year;VN;Vietnam;895;isolates;29.92;ceftriaxone;Mekong Delta;chicken
+19;Nguyen T et al 2015;AnimalESBL;prevalence resistance;3;percent;2015;year;VN;Vietnam;895;isolates;29.92;Third gen cephalosporin;Mekong Delta;chicken
+19;Nguyen T et al 2015;AnimalESBL;prevalence resistance;0;percent;2015;year;VN;Vietnam;895;isolates;29.92;ESBL ;Mekong Delta;chicken
+20;Hussain et al 2017;AnimalESBL;ESBL prevalence in broiler meat;24;percent;2015;year;IN;India;32;meat samples;12.96;ESBL ;total meat and ceca isolates;chicken
+20;Hussain et al 2017;AnimalESBL;ESBL prevalence in free range meat;9;percent;2015;year;IN;India;12;meat samples;7.94;CTX;total meat and ceca isolates;chicken
+21;Bhoomika et al 2016;AnimalESBL;ESBL gene prevalence in chicken meat;3;percent;2014;year;IN;India;98;isolates;9.9;MDR;Jagdalpur, Dantewada, Kanker, and Kondagaon districts of Chhattisgarh;chicken
+21;Bhoomika et al 2016;AnimalESBL;ESBL gene prevalence in goat meat;18;percent;2014;year;IN;India;82;samples;;;;goat
+21;Bhoomika et al 2016;AnimalESBL;ESBL gene prevalence in milk;12;percent;2014;year;IN;India;90;samples;;;;cow
 21;Bhoomika et al 2016;CommunityESBL;ESBL gene prevalence in human urine ;20;percent;2014;year;IN;India;60;samples;;;;
-22;Brower et al 2017;AnimalESBL;ESBL prevalence in chicken farm;87;percent;2014;year;IN;India;270;isolates;16.43;MDR;Broiler ;
-22;Brower et al 2017;AnimalESBL;ESBL prevalence in chicken farm;42;percent;2014;year;IN;India;240;isolates;15.49;MDR;Layer;
-22;Brower et al 2017;AnimalESBL;ESBL prevalence in chicken farm;66;percent;2014;year;IN;India;510;isolates;22.58;MDR;Broiler and layer;
-23;Kuenzli et al ;Acquisition rate of returning traveller ;prevalence ESBL carriage from returning swiss traveller ;79;percent;2013;year;BT;Bhutan;49;traveller ;7;MDR;OR: 0.66/avg stay 18.4 days;
-23;Kuenzli et al ;Acquisition rate of returning traveller ;prevalence ESBL carriage from returning swiss traveller ;87;percent;2013;year;IN;India;68;traveller ;8.25;MDR;OR: 1/avg stay 18.4 days;
-23;Kuenzli et al ;Acquisition rate of returning traveller ;prevalence ESBL carriage from returning swiss traveller ;80;percent;2013;year;NP;Nepal;39;traveller ;6.24;MDR;OR: 0.57/avg stay 18.4 days;
-23;Kuenzli et al ;Acquisition rate of returning traveller ;prevalence ESBL carriage from returning swiss traveller ;35;percent;2013;year;LK;Sri Lanka;14;traveller ;3.74;MDR;OR: 0.05/avg stay 18.4 days;
-24;Paltansing et al 2013;Acquisition rate of returning traveller ;prevalence of Dutch travellers acquired ESBL;34;percent;2013;year;XO;Asia southeast;110;traveller ;10.49;MDR-E;IR/pdt 1.24 mean travel day 27;
-24;Paltansing et al 2013;Acquisition rate of returning traveller ;prevalence of Dutch travellers acquired ESBL;67;percent;2013;year;4E;East Asia & Pacific;33;traveller ;5.74;MDR-E;IR/pdt 0.60 mean travel day 24;
-24;Paltansing et al 2013;Acquisition rate of returning traveller ;prevalence of Dutch travellers acquired ESBL;30;percent;2013;year;7E;Europe & Central Asia (excluding high income);3;traveller ;1.73;MDR-E;IR/pdt 1.06 mean travel day 31;
-24;Paltansing et al 2013;Acquisition rate of returning traveller ;prevalence of Dutch travellers acquired ESBL;25;percent;2013;year;ZJ;Latin America & Caribbean;28;traveller ;5.29;;IR/pdt 0.48 mean travel day 19;
-24;Paltansing et al 2013;Acquisition rate of returning traveller ;prevalence of Dutch travellers acquired ESBL;30;percent;2013;year;ZJ;Latin America & Caribbean ;56;traveller ;7.48;;IR/pdt 0.25 mean travel day 29;
-24;Paltansing et al 2013;Acquisition rate of returning traveller ;prevalence of Dutch travellers acquired ESBL;6;percent;2013;year;ZJ;Latin America & Caribbean;32;traveller ;5.66;;IR/pdt 0.15 mean travel day 29;
-24;Paltansing et al 2013;Acquisition rate of returning traveller ;prevalence of Dutch travellers acquired ESBL;13;percent;2013;year;ZQ;Middle East & North Africa;15;traveller ;3.87;;IR/pdt 0.64 mean travel day 14.8;
-24;Paltansing et al 2013;Acquisition rate of returning traveller ;prevalence of Dutch travellers acquired ESBL;72;percent;2013;year;8S;South Asia;25;traveller ;5;MDR-E;IR/pdt 0.70 mean travel day 24;
-24;Paltansing et al 2013;Acquisition rate of returning traveller ;prevalence of Dutch travellers acquired ESBL;12;percent;2013;year;ZG;Sub-Saharan Africa;26;traveller ;5.1;;IR/pdt 0.27 mean travel day 25;
-24;Paltansing et al 2013;Acquisition rate of returning traveller ;prevalence of Dutch travellers acquired ESBL;40;percent;2013;year;US;United States;10;traveller ;3.16;;IR/pdt 1.76 mean travel day 11.2;
-24;Paltansing et al 2013;Acquisition rate of returning traveller ;prevalence of Dutch travellers acquired ESBL;31;percent;2013;year;1W;World;370;traveller ;19.24;MDR-E;avg 21 day;
-24;Paltansing et al 2013;Persistance rate of returning traveller ;Persistent carriage of same ESBL group after 6month;17;percent;2013;year;XP;Outside EU;113;traveller ;10.63;MDR-E;6 months post travel;
-25;Ruppe et al 2015;Acquisition rate of returning traveller ;prevalence of french travellers acquired ESBL;33;percent;2015;year;AO;Angola;3;traveller ;1.73;MDR (ESBL AmpC CPR);;
-25;Ruppe et al 2015;Acquisition rate of returning traveller ;prevalence of french travellers acquired ESBL;14;percent;2015;year;AR;Argentina;7;traveller ;2.65;MDR (ESBL AmpC CPR);;
-25;Ruppe et al 2015;Acquisition rate of returning traveller ;prevalence of french travellers acquired ESBL;100;percent;2015;year;BD;Bangladesh;1;traveller ;1;MDR (ESBL AmpC CPR);;
-25;Ruppe et al 2015;Acquisition rate of returning traveller ;prevalence of french travellers acquired ESBL;36;percent;2015;year;BJ;Benin;11;traveller ;3.32;MDR (ESBL AmpC CPR);;
-25;Ruppe et al 2015;Acquisition rate of returning traveller ;prevalence of french travellers acquired ESBL;33;percent;2015;year;BO;Bolivia;3;traveller ;1.73;MDR (ESBL AmpC CPR);;
-25;Ruppe et al 2015;Acquisition rate of returning traveller ;prevalence of french travellers acquired ESBL;34;percent;2015;year;BR;Brazil;44;traveller ;6.63;MDR (ESBL AmpC CPR);;
-25;Ruppe et al 2015;Acquisition rate of returning traveller ;prevalence of french travellers acquired ESBL;50;percent;2015;year;BF;Burkina Faso;8;traveller ;2.83;MDR (ESBL AmpC CPR);;
-25;Ruppe et al 2015;Acquisition rate of returning traveller ;prevalence of french travellers acquired ESBL;80;percent;2015;year;KH;Cambodia;5;traveller ;2.24;MDR (ESBL AmpC CPR);;
-25;Ruppe et al 2015;Acquisition rate of returning traveller ;prevalence of french travellers acquired ESBL;54;percent;2015;year;CM;Cameroon;24;traveller ;4.9;MDR (ESBL AmpC CPR);;
-25;Ruppe et al 2015;Acquisition rate of returning traveller ;prevalence of french travellers acquired ESBL;0;percent;2015;year;CF;Central Africa;1;traveller ;1;MDR (ESBL AmpC CPR);;
-25;Ruppe et al 2015;Acquisition rate of returning traveller ;prevalence of french travellers acquired ESBL;60;percent;2015;year;CL;China;5;traveller ;2.24;MDR (ESBL AmpC CPR);;
-25;Ruppe et al 2015;Acquisition rate of returning traveller ;prevalence of french travellers acquired ESBL;0;percent;2015;year;CO;Colombia;10;traveller ;3.16;MDR (ESBL AmpC CPR);;
-25;Ruppe et al 2015;Acquisition rate of returning traveller ;prevalence of french travellers acquired ESBL;62;percent;2015;year;CD;Congo, Rep.;13;traveller ;3.61;MDR (ESBL AmpC CPR);;
-25;Ruppe et al 2015;Acquisition rate of returning traveller ;prevalence of french travellers acquired ESBL;100;percent;2015;year;CR;Costa Rica;1;traveller ;1;MDR (ESBL AmpC CPR);;
-25;Ruppe et al 2015;Acquisition rate of returning traveller ;prevalence of french travellers acquired ESBL;47;percent;2015;year;CI;Cote d'Ivoire;17;traveller ;4.12;MDR (ESBL AmpC CPR);;
-25;Ruppe et al 2015;Acquisition rate of returning traveller ;prevalence of french travellers acquired ESBL;0;percent;2015;year;XT;Cuba;2;traveller ;1.41;MDR (ESBL AmpC CPR);;
-25;Ruppe et al 2015;Acquisition rate of returning traveller ;prevalence of french travellers acquired ESBL;57;percent;2015;year;EC;Ecuador;7;traveller ;2.65;MDR (ESBL AmpC CPR);;
-25;Ruppe et al 2015;Acquisition rate of returning traveller ;prevalence of french travellers acquired ESBL;50;percent;2015;year;ET;Ethiopia;4;traveller ;2;MDR (ESBL AmpC CPR);;
-25;Ruppe et al 2015;Acquisition rate of returning traveller ;prevalence of french travellers acquired ESBL;5;percent;2015;year;FR;France;42;traveller ;6.48;MDR (ESBL AmpC CPR);;
-25;Ruppe et al 2015;Acquisition rate of returning traveller ;prevalence of french travellers acquired ESBL;0;percent;2015;year;FR;France;1;traveller ;1;MDR (ESBL AmpC CPR);;
-25;Ruppe et al 2015;Acquisition rate of returning traveller ;prevalence of french travellers acquired ESBL;67;percent;2015;year;GA;Gabon;3;traveller ;1.73;MDR (ESBL AmpC CPR);;
-25;Ruppe et al 2015;Acquisition rate of returning traveller ;prevalence of french travellers acquired ESBL;100;percent;2015;year;GH;Ghana;1;traveller ;1;MDR (ESBL AmpC CPR);;
-25;Ruppe et al 2015;Acquisition rate of returning traveller ;prevalence of french travellers acquired ESBL;75;percent;2015;year;GN;Guinea;4;traveller ;2;MDR (ESBL AmpC CPR);;
-25;Ruppe et al 2015;Acquisition rate of returning traveller ;prevalence of french travellers acquired ESBL;0;percent;2015;year;GW;Guinea-Bissau;3;traveller ;1.73;MDR (ESBL AmpC CPR);;
-25;Ruppe et al 2015;Acquisition rate of returning traveller ;prevalence of french travellers acquired ESBL;0;percent;2015;year;HN;Honduras;1;traveller ;1;MDR (ESBL AmpC CPR);;
-25;Ruppe et al 2015;Acquisition rate of returning traveller ;prevalence of french travellers acquired ESBL;91;percent;2015;year;IN;India;53;traveller ;7.28;MDR (ESBL AmpC CPR);;
-25;Ruppe et al 2015;Acquisition rate of returning traveller ;prevalence of french travellers acquired ESBL;36;percent;2015;year;ID;Indonesia;17;traveller ;4.12;MDR (ESBL AmpC CPR);;
-25;Ruppe et al 2015;Acquisition rate of returning traveller ;prevalence of french travellers acquired ESBL;67;percent;2015;year;KE;Kenya;6;traveller ;2.45;MDR (ESBL AmpC CPR);;
-25;Ruppe et al 2015;Acquisition rate of returning traveller ;prevalence of french travellers acquired ESBL;100;percent;2015;year;LA;Lao PDR;2;traveller ;1.41;MDR (ESBL AmpC CPR);;
-25;Ruppe et al 2015;Acquisition rate of returning traveller ;prevalence of french travellers acquired ESBL;57;percent;2015;year;MG;Madagascar;7;traveller ;2.65;MDR (ESBL AmpC CPR);;
-25;Ruppe et al 2015;Acquisition rate of returning traveller ;prevalence of french travellers acquired ESBL;0;percent;2015;year;MV;Maldives;2;traveller ;1.41;MDR (ESBL AmpC CPR);;
-25;Ruppe et al 2015;Acquisition rate of returning traveller ;prevalence of french travellers acquired ESBL;20;percent;2015;year;ML;Mali;5;traveller ;2.24;MDR (ESBL AmpC CPR);;
-25;Ruppe et al 2015;Acquisition rate of returning traveller ;prevalence of french travellers acquired ESBL;20;percent;2015;year;MX;Mexico;5;traveller ;2.24;MDR (ESBL AmpC CPR);;
-25;Ruppe et al 2015;Acquisition rate of returning traveller ;prevalence of french travellers acquired ESBL;0;percent;2015;year;MZ;Mozambique;1;traveller ;1;MDR (ESBL AmpC CPR);;
-25;Ruppe et al 2015;Acquisition rate of returning traveller ;prevalence of french travellers acquired ESBL;17;percent;2015;year;MY;Malaysia;6;traveller ;2.45;MDR (ESBL AmpC CPR);;
-25;Ruppe et al 2015;Acquisition rate of returning traveller ;prevalence of french travellers acquired ESBL;86;percent;2015;year;MM;Myanmar;7;traveller ;2.65;MDR (ESBL AmpC CPR);;
-25;Ruppe et al 2015;Acquisition rate of returning traveller ;prevalence of french travellers acquired ESBL;100;percent;2015;year;NP;Nepal;1;traveller ;1;MDR (ESBL AmpC CPR);;
-25;Ruppe et al 2015;Acquisition rate of returning traveller ;prevalence of french travellers acquired ESBL;0;percent;2015;year;NI;Nicaragua;1;traveller ;1;MDR (ESBL AmpC CPR);;
-25;Ruppe et al 2015;Acquisition rate of returning traveller ;prevalence of french travellers acquired ESBL;100;percent;2015;year;NE;Niger;1;traveller ;1;MDR (ESBL AmpC CPR);;
-25;Ruppe et al 2015;Acquisition rate of returning traveller ;prevalence of french travellers acquired ESBL;0;percent;2015;year;PA;Panama;1;traveller ;1;MDR (ESBL AmpC CPR);;
-25;Ruppe et al 2015;Acquisition rate of returning traveller ;prevalence of french travellers acquired ESBL;0;percent;2015;year;PG;Papua New Guinea;1;traveller ;1;MDR (ESBL AmpC CPR);;
-25;Ruppe et al 2015;Acquisition rate of returning traveller ;prevalence of french travellers acquired ESBL;85;percent;2015;year;PE;Peru;26;traveller ;5.1;MDR (ESBL AmpC CPR);;
-25;Ruppe et al 2015;Acquisition rate of returning traveller ;prevalence of french travellers acquired ESBL;0;percent;2015;year;ST;Sao Tome and Principe;1;traveller ;1;MDR (ESBL AmpC CPR);;
-25;Ruppe et al 2015;Acquisition rate of returning traveller ;prevalence of french travellers acquired ESBL;38;percent;2015;year;SN;Senegal;45;traveller ;6.71;MDR (ESBL AmpC CPR);;
-25;Ruppe et al 2015;Acquisition rate of returning traveller ;prevalence of french travellers acquired ESBL;0;percent;2015;year;ZG;South Africa;1;traveller ;1;MDR (ESBL AmpC CPR);;
-25;Ruppe et al 2015;Acquisition rate of returning traveller ;prevalence of french travellers acquired ESBL;100;percent;2015;year;LK;Sri Lanka;3;traveller ;1.73;MDR (ESBL AmpC CPR);;
-25;Ruppe et al 2015;Acquisition rate of returning traveller ;prevalence of french travellers acquired ESBL;64;percent;2015;year;TZ;Tanzania;11;traveller ;3.32;MDR (ESBL AmpC CPR);;
-25;Ruppe et al 2015;Acquisition rate of returning traveller ;prevalence of french travellers acquired ESBL;70;percent;2015;year;TH;Thailand;37;traveller ;6.08;MDR (ESBL AmpC CPR);;
-25;Ruppe et al 2015;Acquisition rate of returning traveller ;prevalence of french travellers acquired ESBL;75;percent;2015;year;TG;Togo;12;traveller ;3.46;MDR (ESBL AmpC CPR);;
-25;Ruppe et al 2015;Acquisition rate of returning traveller ;prevalence of french travellers acquired ESBL;25;percent;2015;year;XN;Venezuela, RB;4;traveller ;2;MDR (ESBL AmpC CPR);GDP2014;
-25;Ruppe et al 2015;Acquisition rate of returning traveller ;prevalence of french travellers acquired ESBL;93;percent;2015;year;VN;Vietnam;14;traveller ;3.74;MDR (ESBL AmpC CPR);;
-25;Ruppe et al 2015;Persistance rate of returning traveller ;Persistent carriage of same ESBL group after 6month;100;percent;2015;year;XP;Asia;292;traveller ;17.09;MDR (ESBL AmpC CPR);0;
-25;Ruppe et al 2015;Persistance rate of returning traveller ;Persistent carriage of same ESBL group after 6month;52;percent;2015;year;XP;Asia;245;traveller ;15.65;MDR (ESBL AmpC CPR);1 month post travel;
-25;Ruppe et al 2015;Persistance rate of returning traveller ;Persistent carriage of same ESBL group after 6month;30;percent;2015;year;XP;Asia;236;traveller ;15.36;MDR (ESBL AmpC CPR);2 months post travel;
-25;Ruppe et al 2015;Persistance rate of returning traveller ;Persistent carriage of same ESBL group after 6month;16;percent;2015;year;XP;Asia;233;traveller ;15.26;MDR (ESBL AmpC CPR);3 months post travel;
-25;Ruppe et al 2015;Persistance rate of returning traveller ;Persistent carriage of same ESBL group after 6month;7;percent;2015;year;XP;Asia;230;traveller ;15.17;MDR (ESBL AmpC CPR);6 months post travel;
-25;Ruppe et al 2015;Persistance rate of returning traveller ;Persistent carriage of same ESBL group after 6month;4;percent;2015;year;XP;Asia;227;traveller ;15.07;MDR (ESBL AmpC CPR);12 months post travel;
-25;Ruppe et al 2015;Persistance rate of returning traveller ;Persistent carriage of same ESBL group ;100;percent;2015;year;ZJ;Latin America & Caribbean;292;traveller ;17.09;MDR (ESBL AmpC CPR);0;
-25;Ruppe et al 2015;Persistance rate of returning traveller ;Persistent carriage of same ESBL group ;20;percent;2015;year;ZJ;Latin America & Caribbean;245;traveller ;15.65;MDR (ESBL AmpC CPR);1 month post travel;
-25;Ruppe et al 2015;Persistance rate of returning traveller ;Persistent carriage of same ESBL group ;10;percent;2015;year;ZJ;Latin America & Caribbean;236;traveller ;15.36;MDR (ESBL AmpC CPR);2 months post travel;
-25;Ruppe et al 2015;Persistance rate of returning traveller ;Persistent carriage of same ESBL group ;6;percent;2015;year;ZJ;Latin America & Caribbean;233;traveller ;15.26;MDR (ESBL AmpC CPR);3 months post travel;
-25;Ruppe et al 2015;Persistance rate of returning traveller ;Persistent carriage of same ESBL group ;6;percent;2015;year;ZJ;Latin America & Caribbean;230;traveller ;15.17;MDR (ESBL AmpC CPR);6 months post travel;
-25;Ruppe et al 2015;Persistance rate of returning traveller ;Persistent carriage of same ESBL group ;2;percent;2015;year;ZJ;Latin America & Caribbean;227;traveller ;15.07;MDR (ESBL AmpC CPR);12 months post travel;
-25;Ruppe et al 2015;Persistance rate of returning traveller ;Persistent carriage of same ESBL group ;100;percent;2015;year;ZG;Sub-Saharan Africa;292;traveller ;17.09;MDR (ESBL AmpC CPR);0;
-25;Ruppe et al 2015;Persistance rate of returning traveller ;Persistent carriage of same ESBL group ;13;percent;2015;year;ZG;Sub-Saharan Africa;245;traveller ;15.65;MDR (ESBL AmpC CPR);1 month post travel;
-25;Ruppe et al 2015;Persistance rate of returning traveller ;Persistent carriage of same ESBL group ;7;percent;2015;year;ZG;Sub-Saharan Africa;236;traveller ;15.36;MDR (ESBL AmpC CPR);2 months post travel;
-25;Ruppe et al 2015;Persistance rate of returning traveller ;Persistent carriage of same ESBL group ;4;percent;2015;year;ZG;Sub-Saharan Africa;233;traveller ;15.26;MDR (ESBL AmpC CPR);3 months post travel;
-25;Ruppe et al 2015;Persistance rate of returning traveller ;Persistent carriage of same ESBL group ;0;percent;2015;year;ZG;Sub-Saharan Africa;230;traveller ;15.17;MDR (ESBL AmpC CPR);6 months post travel;
-25;Ruppe et al 2015;Persistance rate of returning traveller ;Persistent carriage of same ESBL group ;0;percent;2015;year;ZG;Sub-Saharan Africa;227;traveller ;15.07;MDR (ESBL AmpC CPR);12 months post travel;
-26;Ostholm et al 2013;Acquisition rate of returning traveller ;prevalence of sweden travellers acquired ESBL;38;percent;2008-2009;year;XP;Asia;58;traveller ;7.62;Travel carriage ESBL;OR2.44(1.31-4.55);
-26;Ostholm et al 2013;Acquisition rate of returning traveller ;prevalence of sweden travellers acquired ESBL;0;percent;2008-2009;year;AU;Australia;2;traveller ;1.41;Travel carriage ESBL;;
-26;Ostholm et al 2013;Acquisition rate of returning traveller ;prevalence of sweden travellers acquired ESBL;0;percent;2008-2009;year;EU;European Union;15;traveller ;3.87;Travel carriage ESBL;;
-26;Ostholm et al 2013;Acquisition rate of returning traveller ;prevalence of sweden travellers acquired ESBL;7;percent;2008-2009;year;ZJ;Latin America & Caribbean;29;traveller ;5.39;Travel carriage ESBL;OR0.44(0.16-1.22);
-26;Ostholm et al 2013;Acquisition rate of returning traveller ;prevalence of sweden travellers acquired ESBL;19;percent;2008-2009;year;ZQ;Middle East & North Africa;30;traveller ;5.48;Travel carriage ESBL;OR1.96(0.89-4.30);
-26;Ostholm et al 2013;Acquisition rate of returning traveller ;prevalence of sweden travellers acquired ESBL;22;percent;2008-2009;year;ZG;South Africa;71;traveller ;8.43;Travel carriage ESBL;OR 0.52(0.27-0.99);
-26;Ostholm et al 2013;Acquisition rate of returning traveller ;prevalence of sweden travellers acquired ESBL;15;percent;2008-2009;year;8S;South Asia;14;traveller ;3.74;Travel carriage ESBL;OR6.64(2-22);
-26;Ostholm et al 2013;Acquisition rate of returning traveller ;prevalence of sweden travellers acquired ESBL;0;percent;2008-2009;year;US;United States;16;traveller ;4;Travel carriage ESBL;;
-27;Lubbert et al 2015;Acquisition rate of returning traveller ;prevalence of geman travellers acquired ESBL;14;percent;2013;year;XP;Asia;30;traveller ;5.48;Travel carriage ESBL;;
-27;Lubbert et al 2015;Acquisition rate of returning traveller ;prevalence of geman travellers acquired ESBL;48;percent;2013;year;XO;Asia southeast;46;traveller ;6.78;Travel carriage ESBL;;
-27;Lubbert et al 2015;Acquisition rate of returning traveller ;prevalence of geman travellers acquired ESBL;0;percent;2013;year;B8;Central Europe and the Baltics;2;traveller ;1.41;Travel carriage ESBL;;
-27;Lubbert et al 2015;Acquisition rate of returning traveller ;prevalence of geman travellers acquired ESBL;26;percent;2013;year;XQ;East Africa;47;traveller ;6.86;Travel carriage ESBL;;
-27;Lubbert et al 2015;Acquisition rate of returning traveller ;prevalence of geman travellers acquired ESBL;73;percent;2013;year;IN;India;15;traveller ;3.87;Travel carriage ESBL;;
-27;Lubbert et al 2015;Acquisition rate of returning traveller ;prevalence of geman travellers acquired ESBL;7;percent;2013;year;ZJ;Latin America & Caribbean;15;traveller ;3.87;Travel carriage ESBL;;
-27;Lubbert et al 2015;Acquisition rate of returning traveller ;prevalence of geman travellers acquired ESBL;8;percent;2013;year;ZJ;Latin America & Caribbean;63;traveller ;7.94;Travel carriage ESBL;;
-27;Lubbert et al 2015;Acquisition rate of returning traveller ;prevalence of geman travellers acquired ESBL;28;percent;2013;year;XP;Outside EU;191;traveller ;13.82;Travel carriage ESBL;;
-27;Lubbert et al 2015;Acquisition rate of returning traveller ;prevalence of geman travellers acquired ESBL;11;percent;2013;year;ZG;South Africa;18;traveller ;4.24;Travel carriage ESBL;;
-27;Lubbert et al 2015;Acquisition rate of returning traveller ;prevalence of geman travellers acquired ESBL;25;percent;2013;year;XD;South Europe;8;traveller ;2.83;Travel carriage ESBL;;
-27;Lubbert et al 2015;Acquisition rate of returning traveller ;prevalence of geman travellers acquired ESBL;0;percent;2013;year;US;United States;2;traveller ;1.41;Travel carriage ESBL;;
-27;Lubbert et al 2015;Acquisition rate of returning traveller ;prevalence of geman travellers acquired ESBL;39;percent;2013;year;XM;West and Central Africa;13;traveller ;3.61;Travel carriage ESBL;;
-27;Lubbert et al 2015;Persistance rate of returning traveller ;Persistent carriage of same ESBL group ;30;percent;2013;year;XP;Outside EU;58;traveller ;7.62;Travel carriage ESBL;3 months post travel;
-27;Lubbert et al 2015;Persistance rate of returning traveller ;Persistent carriage of same ESBL group ;9;percent;2013;year;XP;Outside EU;35;traveller ;5.92;Travel carriage ESBL;6 months post travel;
-28;Peirano et al 2017;Acquisition rate of returning traveller ;prevalence of canadian travellers acquired ESBL;100;percent;2012-2014;year;BD;Bangladesh;1;traveller ;1;Travel carriage ESBL;;
-28;Peirano et al 2017;Acquisition rate of returning traveller ;prevalence of canadian travellers acquired ESBL;73;percent;2012-2014;year;IN;India;90;traveller ;9.49;Travel carriage ESBL;;
-28;Peirano et al 2017;Acquisition rate of returning traveller ;prevalence of canadian travellers acquired ESBL;22;percent;2012-2014;year;NP;Nepal;9;traveller ;3;Travel carriage ESBL;;
-28;Peirano et al 2017;Acquisition rate of returning traveller ;prevalence of canadian travellers acquired ESBL;100;percent;2012-2014;year;PK;Pakistan;1;traveller ;1;Travel carriage ESBL;;
-28;Peirano et al 2017;Acquisition rate of returning traveller ;prevalence of canadian travellers acquired ESBL;64;percent;2012-2014;year;8S;South Asia;109;traveller ;10.44;Travel carriage ESBL;;
-28;Peirano et al 2017;Acquisition rate of returning traveller ;prevalence of canadian travellers acquired ESBL;2;percent;2012-2014;year;8S;South Asia;109;traveller ;10.44;Travel carriage ESBL;AmpC;
-28;Peirano et al 2017;Acquisition rate of returning traveller ;prevalence of canadian travellers acquired ESBL;21;percent;2012-2014;year;8S;South Asia;70;traveller ;8.37;Travel carriage ESBL;6 months post travel;
-28;Peirano et al 2017;Acquisition rate of returning traveller ;prevalence of canadian travellers acquired ESBL;0;percent;2012-2014;year;LK;Sri Lanka;8;traveller ;2.83;Travel carriage ESBL;;
-29;Arcilla et al 2017;Acquisition rate of returning traveller ;prevalence of dutch travellers acquired ESBL;8;percent;2001;year;BR;Brazil;25;traveller ;5;Travel carriage ESBL;Incidenec/100pdt 0.42;
-29;Arcilla et al 2017;Acquisition rate of returning traveller ;prevalence of dutch travellers acquired ESBL;54;percent;2001;year;CL;China;67;traveller ;8.19;Travel carriage ESBL;Incidenec/100pdt 4.19;
-29;Arcilla et al 2017;Acquisition rate of returning traveller ;prevalence of dutch travellers acquired ESBL;80;percent;2001;year;EG;Egypt, Arab Rep.;30;traveller ;5.48;Travel carriage ESBL;Incidenec/100pdt 13.98;
-29;Arcilla et al 2017;Acquisition rate of returning traveller ;prevalence of dutch travellers acquired ESBL;16;percent;2001;year;GM;Gambia, The;49;traveller ;7;Travel carriage ESBL;Incidenec/100pdt 1.30;
-29;Arcilla et al 2017;Acquisition rate of returning traveller ;prevalence of dutch travellers acquired ESBL;40;percent;2001;year;GH;Ghana;20;traveller ;4.47;Travel carriage ESBL;Incidenec/100pdt 2.65;
-29;Arcilla et al 2017;Acquisition rate of returning traveller ;prevalence of dutch travellers acquired ESBL;89;percent;2001;year;IN;India;79;traveller ;8.89;Travel carriage ESBL;Incidenec/100pdt 12.18;
-29;Arcilla et al 2017;Acquisition rate of returning traveller ;prevalence of dutch travellers acquired ESBL;19;percent;2001;year;ID;Indonesia;211;traveller ;14.53;Travel carriage ESBL;Incidenec/100pdt 0.92;
-29;Arcilla et al 2017;Acquisition rate of returning traveller ;prevalence of dutch travellers acquired ESBL;33;percent;2001;year;KE;Kenya;30;traveller ;5.48;Travel carriage ESBL;Incidenec/100pdt 1.95;
-29;Arcilla et al 2017;Acquisition rate of returning traveller ;prevalence of dutch travellers acquired ESBL;22;percent;2001;year;MX;Mexico;18;traveller ;4.24;Travel carriage ESBL;Incidenec/100pdt 1.73;
-29;Arcilla et al 2017;Acquisition rate of returning traveller ;prevalence of dutch travellers acquired ESBL;22;percent;2001;year;MA;Morocco;36;traveller ;6;Travel carriage ESBL;Incidenec/100pdt 7.21;
-29;Arcilla et al 2017;Acquisition rate of returning traveller ;prevalence of dutch travellers acquired ESBL;25;percent;2001;year;MY;Malaysia;28;traveller ;5.29;Travel carriage ESBL;Incidenec/100pdt 1.50;
-29;Arcilla et al 2017;Acquisition rate of returning traveller ;prevalence of dutch travellers acquired ESBL;53;percent;2001;year;MM;Myanmar;15;traveller ;3.87;Travel carriage ESBL;Incidenec/100pdt 3.91;
-29;Arcilla et al 2017;Acquisition rate of returning traveller ;prevalence of dutch travellers acquired ESBL;79;percent;2001;year;NP;Nepal;29;traveller ;5.39;Travel carriage ESBL;Incidenec/100pdt 7.49;
-29;Arcilla et al 2017;Acquisition rate of returning traveller ;prevalence of dutch travellers acquired ESBL;60;percent;2001;year;PE;Peru;20;traveller ;4.47;Travel carriage ESBL;Incidenec/100pdt 4.28;
-29;Arcilla et al 2017;Acquisition rate of returning traveller ;prevalence of dutch travellers acquired ESBL;5;percent;2001;year;ZG;South Africa;66;traveller ;8.12;Travel carriage ESBL;Incidenec/100pdt 0.22;
-29;Arcilla et al 2017;Acquisition rate of returning traveller ;prevalence of dutch travellers acquired ESBL;51;percent;2001;year;LK;Sri Lanka;43;traveller ;6.56;Travel carriage ESBL;Incidenec/100pdt 3.66;
-29;Arcilla et al 2017;Acquisition rate of returning traveller ;prevalence of dutch travellers acquired ESBL;4;percent;2001;year;SR;Suriname;56;traveller ;7.48;Travel carriage ESBL;Incidenec/100pdt 0.14;
-29;Arcilla et al 2017;Acquisition rate of returning traveller ;prevalence of dutch travellers acquired ESBL;25;percent;2001;year;TZ;Tanzania;57;traveller ;7.55;Travel carriage ESBL;Incidenec/100pdt 1.73;
-29;Arcilla et al 2017;Acquisition rate of returning traveller ;prevalence of dutch travellers acquired ESBL;52;percent;2001;year;TH;Thailand;89;traveller ;9.43;Travel carriage ESBL;Incidenec/100pdt 3.78;
-29;Arcilla et al 2017;Acquisition rate of returning traveller ;prevalence of dutch travellers acquired ESBL;44;percent;2001;year;TR;Turkey;16;traveller ;4;Travel carriage ESBL;Incidenec/100pdt 6.03;
-29;Arcilla et al 2017;Acquisition rate of returning traveller ;prevalence of dutch travellers acquired ESBL;44;percent;2001;year;UG;Uganda;27;traveller ;5.2;Travel carriage ESBL;Incidenec/100pdt 2.65;
-29;Arcilla et al 2017;Acquisition rate of returning traveller ;prevalence of dutch travellers acquired ESBL;72;percent;2001;year;VN;Vietnam;36;traveller ;6;Travel carriage ESBL;Incidenec/100pdt 6.10;
-29;Arcilla et al 2017;Persistance rate of returning traveller ;Persistent carriage of same ESBL group ;100;percent;2001;year;XP;Outside EU;623;traveller ;24.96;Travel carriage ESBL;Immerdiate post travel;
-29;Arcilla et al 2017;Persistance rate of returning traveller ;Persistent carriage of same ESBL group ;43;percent;2001;year;XP;Outside EU;613;traveller ;24.76;Travel carriage ESBL;1 month post travel;
-29;Arcilla et al 2017;Persistance rate of returning traveller ;Persistent carriage of same ESBL group ;22;percent;2001;year;XP;Outside EU;606;traveller ;24.62;Travel carriage ESBL;3 months post travel;
-29;Arcilla et al 2017;Persistance rate of returning traveller ;Persistent carriage of same ESBL group ;11;percent;2001;year;XP;Outside EU;601;traveller ;24.52;Travel carriage ESBL;6 months post travel;
-29;Arcilla et al 2017;Persistance rate of returning traveller ;Persistent carriage of same ESBL group ;7;percent;2001;year;XP;Outside EU;577;traveller ;24.02;Travel carriage ESBL;12 months post travel;
-30;Miranda et al 2016;Acquisition rate of returning traveller ;prevalence of ESBL in Germany traveller with gastrointestical symptom;34;percent;2013;year;XO;Africa;27;traveller ;5.2;Travel carriage ESBL;;
-30;Miranda et al 2016;Acquisition rate of returning traveller ;prevalence of ESBL in Germany traveller with gastrointestical symptom;43;percent;2013;year;XO;Asia outside SEA;7;traveller ;2.65;Travel carriage ESBL;;
-30;Miranda et al 2016;Acquisition rate of returning traveller ;prevalence of ESBL in Germany traveller with gastrointestical symptom;60;percent;2013;year;XO;Asia southeast;39;traveller ;6.24;Travel carriage ESBL;;
-30;Miranda et al 2016;Acquisition rate of returning traveller ;prevalence of ESBL in Germany traveller with gastrointestical symptom;0;percent;2013;year;XD;EU/North America;5;traveller ;2.24;Travel carriage ESBL;;
-30;Miranda et al 2016;Acquisition rate of returning traveller ;prevalence of ESBL in Germany traveller with gastrointestical symptom;72;percent;2013;year;IN;India;81;traveller ;9;Travel carriage ESBL;;
-30;Miranda et al 2016;Acquisition rate of returning traveller ;prevalence of ESBL in Germany traveller with gastrointestical symptom;15;percent;2013;year;ZJ;Latin America & Caribbean;21;traveller ;4.58;Travel carriage ESBL;;
-30;Miranda et al 2016;Acquisition rate of returning traveller ;prevalence of ESBL in Germany traveller with gastrointestical symptom;40;percent;2013;year;8S;South Asia;15;traveller ;3.87;Travel carriage ESBL;;
-30;Miranda et al 2016;Acquisition rate of returning traveller ;prevalence of ESBL in Germany traveller with gastrointestical symptom;32;percent;2013;year;TH;Thailand;16;traveller ;4;Travel carriage ESBL;;
-31;Angelin et al 2015;Acquisition rate of returning traveller ;prevalence of ESBL in Germany traveller with gastrointestical symptom;10;percent;2010-2014;year;XO;Africa;40;traveller ;6.32;Travel carriage ESBL;;
-31;Angelin et al 2015;Acquisition rate of returning traveller ;prevalence of ESBL in Germany traveller with gastrointestical symptom;0;percent;2010-2014;year;AR;Argentina;2;traveller ;1.41;Travel carriage ESBL;;
-31;Angelin et al 2015;Acquisition rate of returning traveller ;prevalence of ESBL in Germany traveller with gastrointestical symptom;67;percent;2010-2014;year;XO;Asia southeast;46;traveller ;6.78;Travel carriage ESBL;;
-31;Angelin et al 2015;Acquisition rate of returning traveller ;prevalence of ESBL in Germany traveller with gastrointestical symptom;0;percent;2010-2014;year;BR;Brazil;1;traveller ;1;Travel carriage ESBL;;
-31;Angelin et al 2015;Acquisition rate of returning traveller ;prevalence of ESBL in Germany traveller with gastrointestical symptom;14;percent;2010-2014;year;CM;Cameroon;22;traveller ;4.69;Travel carriage ESBL;;
-31;Angelin et al 2015;Acquisition rate of returning traveller ;prevalence of ESBL in Germany traveller with gastrointestical symptom;0;percent;2010-2014;year;CA;Canada;1;traveller ;1;Travel carriage ESBL;;
-31;Angelin et al 2015;Acquisition rate of returning traveller ;prevalence of ESBL in Germany traveller with gastrointestical symptom;0;percent;2010-2014;year;CR;Costa Rica;1;traveller ;1;Travel carriage ESBL;;
-31;Angelin et al 2015;Acquisition rate of returning traveller ;prevalence of ESBL in Germany traveller with gastrointestical symptom;70;percent;2010-2014;year;IN;India;30;traveller ;5.48;Travel carriage ESBL;;
-31;Angelin et al 2015;Acquisition rate of returning traveller ;prevalence of ESBL in Germany traveller with gastrointestical symptom;0;percent;2010-2014;year;IL;Israel;1;traveller ;1;Travel carriage ESBL;;
-31;Angelin et al 2015;Acquisition rate of returning traveller ;prevalence of ESBL in Germany traveller with gastrointestical symptom;0;percent;2010-2014;year;GB;United Kingdom;1;traveller ;1;Travel carriage ESBL;;
-31;Angelin et al 2015;Acquisition rate of returning traveller ;prevalence of ESBL in Germany traveller with gastrointestical symptom;0;percent;2010-2014;year;US;United States;3;traveller ;1.73;Travel carriage ESBL;;
-31;Angelin et al 2015;Acquisition rate of returning traveller ;prevalence of ESBL in Germany traveller with gastrointestical symptom;0;percent;2010-2014;year;UY;Uruguay;1;traveller ;1;Travel carriage ESBL;;
-31;Angelin et al 2015;Acquisition rate of returning traveller ;prevalence of ESBL in Germany traveller with gastrointestical symptom;0;percent;2010-2014;year;UZ;Uzbekistan;2;traveller ;1.41;Travel carriage ESBL;;
-31;Angelin et al 2015;Acquisition rate of returning traveller ;prevalence of ESBL in Germany traveller with gastrointestical symptom;86;percent;2010-2014;year;VN;Vietnam;7;traveller ;2.65;Travel carriage ESBL;;
-32;Tangden et al 2010;Acquisition rate of returning traveller ;prevalence of swedish travellers acquired ESBL;4;percent;2007;year;XO;Africa;25;traveller ;5;Travel carriage ESBL;;
-32;Tangden et al 2010;Acquisition rate of returning traveller ;prevalence of swedish travellers acquired ESBL;32;percent;2007;year;XP;Asia ;31;traveller ;5.57;Travel carriage ESBL;;
-32;Tangden et al 2010;Acquisition rate of returning traveller ;prevalence of swedish travellers acquired ESBL;88;percent;2007;year;IN;India;8;traveller ;2.83;Travel carriage ESBL;;
-32;Tangden et al 2010;Acquisition rate of returning traveller ;prevalence of swedish travellers acquired ESBL;0;percent;2007;year;ZJ;Latin America & Caribbean;6;traveller ;2.45;Travel carriage ESBL;;
-32;Tangden et al 2010;Acquisition rate of returning traveller ;prevalence of swedish travellers acquired ESBL;0;percent;2007;year;ZJ;Latin America & Caribbean;1;traveller ;1;Travel carriage ESBL;;
-32;Tangden et al 2010;Acquisition rate of returning traveller ;prevalence of swedish travellers acquired ESBL;29;percent;2007;year;ZQ;Middle East & North Africa;14;traveller ;3.74;Travel carriage ESBL;;
-32;Tangden et al 2010;Acquisition rate of returning traveller ;prevalence of swedish travellers acquired ESBL;13;percent;2007;year;XD;South Europe;16;traveller ;4;Travel carriage ESBL;;
-32;Tangden et al 2010;Acquisition rate of returning traveller ;prevalence of swedish travellers acquired ESBL;0;percent;2007;year;US;United States;2;traveller ;1.41;Travel carriage ESBL;;
+22;Brower et al 2017;AnimalESBL;ESBL prevalence in chicken farm;87;percent;2014;year;IN;India;270;isolates;16.43;MDR;Broiler ;chicken
+22;Brower et al 2017;AnimalESBL;ESBL prevalence in chicken farm;42;percent;2014;year;IN;India;240;isolates;15.49;MDR;Layer;chicken
+22;Brower et al 2017;AnimalESBL;ESBL prevalence in chicken farm;66;percent;2014;year;IN;India;510;isolates;22.58;MDR;Broiler and layer;chicken
+23;Kuenzli et al ;Acquisition rate of returning traveller ;prevalence ESBL carriage from returning swiss traveller ;79;percent;2013;year;BT;Bhutan;49;traveller ;7;MDR;OR: 0.66/avg stay 18.4 days;Switzerland
+23;Kuenzli et al ;Acquisition rate of returning traveller ;prevalence ESBL carriage from returning swiss traveller ;87;percent;2013;year;IN;India;68;traveller ;8.25;MDR;OR: 1/avg stay 18.4 days;Switzerland
+23;Kuenzli et al ;Acquisition rate of returning traveller ;prevalence ESBL carriage from returning swiss traveller ;80;percent;2013;year;NP;Nepal;39;traveller ;6.24;MDR;OR: 0.57/avg stay 18.4 days;Switzerland
+23;Kuenzli et al ;Acquisition rate of returning traveller ;prevalence ESBL carriage from returning swiss traveller ;35;percent;2013;year;LK;Sri Lanka;14;traveller ;3.74;MDR;OR: 0.05/avg stay 18.4 days;Switzerland
+24;Paltansing et al 2013;Acquisition rate of returning traveller ;prevalence of Dutch travellers acquired ESBL;34;percent;2013;year;XO;Asia southeast;110;traveller ;10.49;MDR-E;IR/pdt 1.24 mean travel day 27;Netherlands
+24;Paltansing et al 2013;Acquisition rate of returning traveller ;prevalence of Dutch travellers acquired ESBL;67;percent;2013;year;4E;East Asia & Pacific;33;traveller ;5.74;MDR-E;IR/pdt 0.60 mean travel day 24;Netherlands
+24;Paltansing et al 2013;Acquisition rate of returning traveller ;prevalence of Dutch travellers acquired ESBL;30;percent;2013;year;7E;Europe & Central Asia (excluding high income);3;traveller ;1.73;MDR-E;IR/pdt 1.06 mean travel day 31;Netherlands
+24;Paltansing et al 2013;Acquisition rate of returning traveller ;prevalence of Dutch travellers acquired ESBL;25;percent;2013;year;ZJ;Latin America & Caribbean;28;traveller ;5.29;;IR/pdt 0.48 mean travel day 19;Netherlands
+24;Paltansing et al 2013;Acquisition rate of returning traveller ;prevalence of Dutch travellers acquired ESBL;30;percent;2013;year;ZJ;Latin America & Caribbean ;56;traveller ;7.48;;IR/pdt 0.25 mean travel day 29;Netherlands
+24;Paltansing et al 2013;Acquisition rate of returning traveller ;prevalence of Dutch travellers acquired ESBL;6;percent;2013;year;ZJ;Latin America & Caribbean;32;traveller ;5.66;;IR/pdt 0.15 mean travel day 29;Netherlands
+24;Paltansing et al 2013;Acquisition rate of returning traveller ;prevalence of Dutch travellers acquired ESBL;13;percent;2013;year;ZQ;Middle East & North Africa;15;traveller ;3.87;;IR/pdt 0.64 mean travel day 14.8;Netherlands
+24;Paltansing et al 2013;Acquisition rate of returning traveller ;prevalence of Dutch travellers acquired ESBL;72;percent;2013;year;8S;South Asia;25;traveller ;5;MDR-E;IR/pdt 0.70 mean travel day 24;Netherlands
+24;Paltansing et al 2013;Acquisition rate of returning traveller ;prevalence of Dutch travellers acquired ESBL;12;percent;2013;year;ZG;Sub-Saharan Africa;26;traveller ;5.1;;IR/pdt 0.27 mean travel day 25;Netherlands
+24;Paltansing et al 2013;Acquisition rate of returning traveller ;prevalence of Dutch travellers acquired ESBL;40;percent;2013;year;US;United States;10;traveller ;3.16;;IR/pdt 1.76 mean travel day 11.2;Netherlands
+24;Paltansing et al 2013;Acquisition rate of returning traveller ;prevalence of Dutch travellers acquired ESBL;31;percent;2013;year;1W;World;370;traveller ;19.24;MDR-E;avg 21 day;Netherlands
+24;Paltansing et al 2013;Persistance rate of returning traveller ;Persistent carriage of same ESBL group after 6month;17;percent;2013;year;XP;Outside EU;113;traveller ;10.63;MDR-E;6 months post travel;Netherlands
+25;Ruppe et al 2015;Acquisition rate of returning traveller ;prevalence of french travellers acquired ESBL;33;percent;2015;year;AO;Angola;3;traveller ;1.73;MDR (ESBL AmpC CPR);;France
+25;Ruppe et al 2015;Acquisition rate of returning traveller ;prevalence of french travellers acquired ESBL;14;percent;2015;year;AR;Argentina;7;traveller ;2.65;MDR (ESBL AmpC CPR);;France
+25;Ruppe et al 2015;Acquisition rate of returning traveller ;prevalence of french travellers acquired ESBL;100;percent;2015;year;BD;Bangladesh;1;traveller ;1;MDR (ESBL AmpC CPR);;France
+25;Ruppe et al 2015;Acquisition rate of returning traveller ;prevalence of french travellers acquired ESBL;36;percent;2015;year;BJ;Benin;11;traveller ;3.32;MDR (ESBL AmpC CPR);;France
+25;Ruppe et al 2015;Acquisition rate of returning traveller ;prevalence of french travellers acquired ESBL;33;percent;2015;year;BO;Bolivia;3;traveller ;1.73;MDR (ESBL AmpC CPR);;France
+25;Ruppe et al 2015;Acquisition rate of returning traveller ;prevalence of french travellers acquired ESBL;34;percent;2015;year;BR;Brazil;44;traveller ;6.63;MDR (ESBL AmpC CPR);;France
+25;Ruppe et al 2015;Acquisition rate of returning traveller ;prevalence of french travellers acquired ESBL;50;percent;2015;year;BF;Burkina Faso;8;traveller ;2.83;MDR (ESBL AmpC CPR);;France
+25;Ruppe et al 2015;Acquisition rate of returning traveller ;prevalence of french travellers acquired ESBL;80;percent;2015;year;KH;Cambodia;5;traveller ;2.24;MDR (ESBL AmpC CPR);;France
+25;Ruppe et al 2015;Acquisition rate of returning traveller ;prevalence of french travellers acquired ESBL;54;percent;2015;year;CM;Cameroon;24;traveller ;4.9;MDR (ESBL AmpC CPR);;France
+25;Ruppe et al 2015;Acquisition rate of returning traveller ;prevalence of french travellers acquired ESBL;0;percent;2015;year;CF;Central Africa;1;traveller ;1;MDR (ESBL AmpC CPR);;France
+25;Ruppe et al 2015;Acquisition rate of returning traveller ;prevalence of french travellers acquired ESBL;60;percent;2015;year;CL;China;5;traveller ;2.24;MDR (ESBL AmpC CPR);;France
+25;Ruppe et al 2015;Acquisition rate of returning traveller ;prevalence of french travellers acquired ESBL;0;percent;2015;year;CO;Colombia;10;traveller ;3.16;MDR (ESBL AmpC CPR);;France
+25;Ruppe et al 2015;Acquisition rate of returning traveller ;prevalence of french travellers acquired ESBL;62;percent;2015;year;CD;Congo, Rep.;13;traveller ;3.61;MDR (ESBL AmpC CPR);;France
+25;Ruppe et al 2015;Acquisition rate of returning traveller ;prevalence of french travellers acquired ESBL;100;percent;2015;year;CR;Costa Rica;1;traveller ;1;MDR (ESBL AmpC CPR);;France
+25;Ruppe et al 2015;Acquisition rate of returning traveller ;prevalence of french travellers acquired ESBL;47;percent;2015;year;CI;Cote d'Ivoire;17;traveller ;4.12;MDR (ESBL AmpC CPR);;France
+25;Ruppe et al 2015;Acquisition rate of returning traveller ;prevalence of french travellers acquired ESBL;0;percent;2015;year;XT;Cuba;2;traveller ;1.41;MDR (ESBL AmpC CPR);;France
+25;Ruppe et al 2015;Acquisition rate of returning traveller ;prevalence of french travellers acquired ESBL;57;percent;2015;year;EC;Ecuador;7;traveller ;2.65;MDR (ESBL AmpC CPR);;France
+25;Ruppe et al 2015;Acquisition rate of returning traveller ;prevalence of french travellers acquired ESBL;50;percent;2015;year;ET;Ethiopia;4;traveller ;2;MDR (ESBL AmpC CPR);;France
+25;Ruppe et al 2015;Acquisition rate of returning traveller ;prevalence of french travellers acquired ESBL;5;percent;2015;year;FR;France;42;traveller ;6.48;MDR (ESBL AmpC CPR);;France
+25;Ruppe et al 2015;Acquisition rate of returning traveller ;prevalence of french travellers acquired ESBL;0;percent;2015;year;FR;France;1;traveller ;1;MDR (ESBL AmpC CPR);;France
+25;Ruppe et al 2015;Acquisition rate of returning traveller ;prevalence of french travellers acquired ESBL;67;percent;2015;year;GA;Gabon;3;traveller ;1.73;MDR (ESBL AmpC CPR);;France
+25;Ruppe et al 2015;Acquisition rate of returning traveller ;prevalence of french travellers acquired ESBL;100;percent;2015;year;GH;Ghana;1;traveller ;1;MDR (ESBL AmpC CPR);;France
+25;Ruppe et al 2015;Acquisition rate of returning traveller ;prevalence of french travellers acquired ESBL;75;percent;2015;year;GN;Guinea;4;traveller ;2;MDR (ESBL AmpC CPR);;France
+25;Ruppe et al 2015;Acquisition rate of returning traveller ;prevalence of french travellers acquired ESBL;0;percent;2015;year;GW;Guinea-Bissau;3;traveller ;1.73;MDR (ESBL AmpC CPR);;France
+25;Ruppe et al 2015;Acquisition rate of returning traveller ;prevalence of french travellers acquired ESBL;0;percent;2015;year;HN;Honduras;1;traveller ;1;MDR (ESBL AmpC CPR);;France
+25;Ruppe et al 2015;Acquisition rate of returning traveller ;prevalence of french travellers acquired ESBL;91;percent;2015;year;IN;India;53;traveller ;7.28;MDR (ESBL AmpC CPR);;France
+25;Ruppe et al 2015;Acquisition rate of returning traveller ;prevalence of french travellers acquired ESBL;36;percent;2015;year;ID;Indonesia;17;traveller ;4.12;MDR (ESBL AmpC CPR);;France
+25;Ruppe et al 2015;Acquisition rate of returning traveller ;prevalence of french travellers acquired ESBL;67;percent;2015;year;KE;Kenya;6;traveller ;2.45;MDR (ESBL AmpC CPR);;France
+25;Ruppe et al 2015;Acquisition rate of returning traveller ;prevalence of french travellers acquired ESBL;100;percent;2015;year;LA;Lao PDR;2;traveller ;1.41;MDR (ESBL AmpC CPR);;France
+25;Ruppe et al 2015;Acquisition rate of returning traveller ;prevalence of french travellers acquired ESBL;57;percent;2015;year;MG;Madagascar;7;traveller ;2.65;MDR (ESBL AmpC CPR);;France
+25;Ruppe et al 2015;Acquisition rate of returning traveller ;prevalence of french travellers acquired ESBL;0;percent;2015;year;MV;Maldives;2;traveller ;1.41;MDR (ESBL AmpC CPR);;France
+25;Ruppe et al 2015;Acquisition rate of returning traveller ;prevalence of french travellers acquired ESBL;20;percent;2015;year;ML;Mali;5;traveller ;2.24;MDR (ESBL AmpC CPR);;France
+25;Ruppe et al 2015;Acquisition rate of returning traveller ;prevalence of french travellers acquired ESBL;20;percent;2015;year;MX;Mexico;5;traveller ;2.24;MDR (ESBL AmpC CPR);;France
+25;Ruppe et al 2015;Acquisition rate of returning traveller ;prevalence of french travellers acquired ESBL;0;percent;2015;year;MZ;Mozambique;1;traveller ;1;MDR (ESBL AmpC CPR);;France
+25;Ruppe et al 2015;Acquisition rate of returning traveller ;prevalence of french travellers acquired ESBL;17;percent;2015;year;MY;Malaysia;6;traveller ;2.45;MDR (ESBL AmpC CPR);;France
+25;Ruppe et al 2015;Acquisition rate of returning traveller ;prevalence of french travellers acquired ESBL;86;percent;2015;year;MM;Myanmar;7;traveller ;2.65;MDR (ESBL AmpC CPR);;France
+25;Ruppe et al 2015;Acquisition rate of returning traveller ;prevalence of french travellers acquired ESBL;100;percent;2015;year;NP;Nepal;1;traveller ;1;MDR (ESBL AmpC CPR);;France
+25;Ruppe et al 2015;Acquisition rate of returning traveller ;prevalence of french travellers acquired ESBL;0;percent;2015;year;NI;Nicaragua;1;traveller ;1;MDR (ESBL AmpC CPR);;France
+25;Ruppe et al 2015;Acquisition rate of returning traveller ;prevalence of french travellers acquired ESBL;100;percent;2015;year;NE;Niger;1;traveller ;1;MDR (ESBL AmpC CPR);;France
+25;Ruppe et al 2015;Acquisition rate of returning traveller ;prevalence of french travellers acquired ESBL;0;percent;2015;year;PA;Panama;1;traveller ;1;MDR (ESBL AmpC CPR);;France
+25;Ruppe et al 2015;Acquisition rate of returning traveller ;prevalence of french travellers acquired ESBL;0;percent;2015;year;PG;Papua New Guinea;1;traveller ;1;MDR (ESBL AmpC CPR);;France
+25;Ruppe et al 2015;Acquisition rate of returning traveller ;prevalence of french travellers acquired ESBL;85;percent;2015;year;PE;Peru;26;traveller ;5.1;MDR (ESBL AmpC CPR);;France
+25;Ruppe et al 2015;Acquisition rate of returning traveller ;prevalence of french travellers acquired ESBL;0;percent;2015;year;ST;Sao Tome and Principe;1;traveller ;1;MDR (ESBL AmpC CPR);;France
+25;Ruppe et al 2015;Acquisition rate of returning traveller ;prevalence of french travellers acquired ESBL;38;percent;2015;year;SN;Senegal;45;traveller ;6.71;MDR (ESBL AmpC CPR);;France
+25;Ruppe et al 2015;Acquisition rate of returning traveller ;prevalence of french travellers acquired ESBL;0;percent;2015;year;ZG;South Africa;1;traveller ;1;MDR (ESBL AmpC CPR);;France
+25;Ruppe et al 2015;Acquisition rate of returning traveller ;prevalence of french travellers acquired ESBL;100;percent;2015;year;LK;Sri Lanka;3;traveller ;1.73;MDR (ESBL AmpC CPR);;France
+25;Ruppe et al 2015;Acquisition rate of returning traveller ;prevalence of french travellers acquired ESBL;64;percent;2015;year;TZ;Tanzania;11;traveller ;3.32;MDR (ESBL AmpC CPR);;France
+25;Ruppe et al 2015;Acquisition rate of returning traveller ;prevalence of french travellers acquired ESBL;70;percent;2015;year;TH;Thailand;37;traveller ;6.08;MDR (ESBL AmpC CPR);;France
+25;Ruppe et al 2015;Acquisition rate of returning traveller ;prevalence of french travellers acquired ESBL;75;percent;2015;year;TG;Togo;12;traveller ;3.46;MDR (ESBL AmpC CPR);;France
+25;Ruppe et al 2015;Acquisition rate of returning traveller ;prevalence of french travellers acquired ESBL;25;percent;2015;year;XN;Venezuela, RB;4;traveller ;2;MDR (ESBL AmpC CPR);GDP2014;France
+25;Ruppe et al 2015;Acquisition rate of returning traveller ;prevalence of french travellers acquired ESBL;93;percent;2015;year;VN;Vietnam;14;traveller ;3.74;MDR (ESBL AmpC CPR);;France
+25;Ruppe et al 2015;Persistance rate of returning traveller ;Persistent carriage of same ESBL group after 6month;100;percent;2015;year;XP;Asia;292;traveller ;17.09;MDR (ESBL AmpC CPR);0;France
+25;Ruppe et al 2015;Persistance rate of returning traveller ;Persistent carriage of same ESBL group after 6month;52;percent;2015;year;XP;Asia;245;traveller ;15.65;MDR (ESBL AmpC CPR);1 month post travel;France
+25;Ruppe et al 2015;Persistance rate of returning traveller ;Persistent carriage of same ESBL group after 6month;30;percent;2015;year;XP;Asia;236;traveller ;15.36;MDR (ESBL AmpC CPR);2 months post travel;France
+25;Ruppe et al 2015;Persistance rate of returning traveller ;Persistent carriage of same ESBL group after 6month;16;percent;2015;year;XP;Asia;233;traveller ;15.26;MDR (ESBL AmpC CPR);3 months post travel;France
+25;Ruppe et al 2015;Persistance rate of returning traveller ;Persistent carriage of same ESBL group after 6month;7;percent;2015;year;XP;Asia;230;traveller ;15.17;MDR (ESBL AmpC CPR);6 months post travel;France
+25;Ruppe et al 2015;Persistance rate of returning traveller ;Persistent carriage of same ESBL group after 6month;4;percent;2015;year;XP;Asia;227;traveller ;15.07;MDR (ESBL AmpC CPR);12 months post travel;France
+25;Ruppe et al 2015;Persistance rate of returning traveller ;Persistent carriage of same ESBL group ;100;percent;2015;year;ZJ;Latin America & Caribbean;292;traveller ;17.09;MDR (ESBL AmpC CPR);0;France
+25;Ruppe et al 2015;Persistance rate of returning traveller ;Persistent carriage of same ESBL group ;20;percent;2015;year;ZJ;Latin America & Caribbean;245;traveller ;15.65;MDR (ESBL AmpC CPR);1 month post travel;France
+25;Ruppe et al 2015;Persistance rate of returning traveller ;Persistent carriage of same ESBL group ;10;percent;2015;year;ZJ;Latin America & Caribbean;236;traveller ;15.36;MDR (ESBL AmpC CPR);2 months post travel;France
+25;Ruppe et al 2015;Persistance rate of returning traveller ;Persistent carriage of same ESBL group ;6;percent;2015;year;ZJ;Latin America & Caribbean;233;traveller ;15.26;MDR (ESBL AmpC CPR);3 months post travel;France
+25;Ruppe et al 2015;Persistance rate of returning traveller ;Persistent carriage of same ESBL group ;6;percent;2015;year;ZJ;Latin America & Caribbean;230;traveller ;15.17;MDR (ESBL AmpC CPR);6 months post travel;France
+25;Ruppe et al 2015;Persistance rate of returning traveller ;Persistent carriage of same ESBL group ;2;percent;2015;year;ZJ;Latin America & Caribbean;227;traveller ;15.07;MDR (ESBL AmpC CPR);12 months post travel;France
+25;Ruppe et al 2015;Persistance rate of returning traveller ;Persistent carriage of same ESBL group ;100;percent;2015;year;ZG;Sub-Saharan Africa;292;traveller ;17.09;MDR (ESBL AmpC CPR);0;France
+25;Ruppe et al 2015;Persistance rate of returning traveller ;Persistent carriage of same ESBL group ;13;percent;2015;year;ZG;Sub-Saharan Africa;245;traveller ;15.65;MDR (ESBL AmpC CPR);1 month post travel;France
+25;Ruppe et al 2015;Persistance rate of returning traveller ;Persistent carriage of same ESBL group ;7;percent;2015;year;ZG;Sub-Saharan Africa;236;traveller ;15.36;MDR (ESBL AmpC CPR);2 months post travel;France
+25;Ruppe et al 2015;Persistance rate of returning traveller ;Persistent carriage of same ESBL group ;4;percent;2015;year;ZG;Sub-Saharan Africa;233;traveller ;15.26;MDR (ESBL AmpC CPR);3 months post travel;France
+25;Ruppe et al 2015;Persistance rate of returning traveller ;Persistent carriage of same ESBL group ;0;percent;2015;year;ZG;Sub-Saharan Africa;230;traveller ;15.17;MDR (ESBL AmpC CPR);6 months post travel;France
+25;Ruppe et al 2015;Persistance rate of returning traveller ;Persistent carriage of same ESBL group ;0;percent;2015;year;ZG;Sub-Saharan Africa;227;traveller ;15.07;MDR (ESBL AmpC CPR);12 months post travel;France
+26;Ostholm et al 2013;Acquisition rate of returning traveller ;prevalence of sweden travellers acquired ESBL;38;percent;2008-2009;year;XP;Asia;58;traveller ;7.62;Travel carriage ESBL;OR2.44(1.31-4.55);Sweden
+26;Ostholm et al 2013;Acquisition rate of returning traveller ;prevalence of sweden travellers acquired ESBL;0;percent;2008-2009;year;AU;Australia;2;traveller ;1.41;Travel carriage ESBL;;Sweden
+26;Ostholm et al 2013;Acquisition rate of returning traveller ;prevalence of sweden travellers acquired ESBL;0;percent;2008-2009;year;EU;European Union;15;traveller ;3.87;Travel carriage ESBL;;Sweden
+26;Ostholm et al 2013;Acquisition rate of returning traveller ;prevalence of sweden travellers acquired ESBL;7;percent;2008-2009;year;ZJ;Latin America & Caribbean;29;traveller ;5.39;Travel carriage ESBL;OR0.44(0.16-1.22);Sweden
+26;Ostholm et al 2013;Acquisition rate of returning traveller ;prevalence of sweden travellers acquired ESBL;19;percent;2008-2009;year;ZQ;Middle East & North Africa;30;traveller ;5.48;Travel carriage ESBL;OR1.96(0.89-4.30);Sweden
+26;Ostholm et al 2013;Acquisition rate of returning traveller ;prevalence of sweden travellers acquired ESBL;22;percent;2008-2009;year;ZG;South Africa;71;traveller ;8.43;Travel carriage ESBL;OR 0.52(0.27-0.99);Sweden
+26;Ostholm et al 2013;Acquisition rate of returning traveller ;prevalence of sweden travellers acquired ESBL;15;percent;2008-2009;year;8S;South Asia;14;traveller ;3.74;Travel carriage ESBL;OR6.64(2-22);Sweden
+26;Ostholm et al 2013;Acquisition rate of returning traveller ;prevalence of sweden travellers acquired ESBL;0;percent;2008-2009;year;US;United States;16;traveller ;4;Travel carriage ESBL;;Sweden
+27;Lubbert et al 2015;Acquisition rate of returning traveller ;prevalence of geman travellers acquired ESBL;14;percent;2013;year;XP;Asia;30;traveller ;5.48;Travel carriage ESBL;;Germany
+27;Lubbert et al 2015;Acquisition rate of returning traveller ;prevalence of geman travellers acquired ESBL;48;percent;2013;year;XO;Asia southeast;46;traveller ;6.78;Travel carriage ESBL;;Germany
+27;Lubbert et al 2015;Acquisition rate of returning traveller ;prevalence of geman travellers acquired ESBL;0;percent;2013;year;B8;Central Europe and the Baltics;2;traveller ;1.41;Travel carriage ESBL;;Germany
+27;Lubbert et al 2015;Acquisition rate of returning traveller ;prevalence of geman travellers acquired ESBL;26;percent;2013;year;XQ;East Africa;47;traveller ;6.86;Travel carriage ESBL;;Germany
+27;Lubbert et al 2015;Acquisition rate of returning traveller ;prevalence of geman travellers acquired ESBL;73;percent;2013;year;IN;India;15;traveller ;3.87;Travel carriage ESBL;;Germany
+27;Lubbert et al 2015;Acquisition rate of returning traveller ;prevalence of geman travellers acquired ESBL;7;percent;2013;year;ZJ;Latin America & Caribbean;15;traveller ;3.87;Travel carriage ESBL;;Germany
+27;Lubbert et al 2015;Acquisition rate of returning traveller ;prevalence of geman travellers acquired ESBL;8;percent;2013;year;ZJ;Latin America & Caribbean;63;traveller ;7.94;Travel carriage ESBL;;Germany
+27;Lubbert et al 2015;Acquisition rate of returning traveller ;prevalence of geman travellers acquired ESBL;28;percent;2013;year;XP;Outside EU;191;traveller ;13.82;Travel carriage ESBL;;Germany
+27;Lubbert et al 2015;Acquisition rate of returning traveller ;prevalence of geman travellers acquired ESBL;11;percent;2013;year;ZG;South Africa;18;traveller ;4.24;Travel carriage ESBL;;Germany
+27;Lubbert et al 2015;Acquisition rate of returning traveller ;prevalence of geman travellers acquired ESBL;25;percent;2013;year;XD;South Europe;8;traveller ;2.83;Travel carriage ESBL;;Germany
+27;Lubbert et al 2015;Acquisition rate of returning traveller ;prevalence of geman travellers acquired ESBL;0;percent;2013;year;US;United States;2;traveller ;1.41;Travel carriage ESBL;;Germany
+27;Lubbert et al 2015;Acquisition rate of returning traveller ;prevalence of geman travellers acquired ESBL;39;percent;2013;year;XM;West and Central Africa;13;traveller ;3.61;Travel carriage ESBL;;Germany
+27;Lubbert et al 2015;Persistance rate of returning traveller ;Persistent carriage of same ESBL group ;30;percent;2013;year;XP;Outside EU;58;traveller ;7.62;Travel carriage ESBL;3 months post travel;Germany
+27;Lubbert et al 2015;Persistance rate of returning traveller ;Persistent carriage of same ESBL group ;9;percent;2013;year;XP;Outside EU;35;traveller ;5.92;Travel carriage ESBL;6 months post travel;Germany
+28;Peirano et al 2017;Acquisition rate of returning traveller ;prevalence of canadian travellers acquired ESBL;100;percent;2012-2014;year;BD;Bangladesh;1;traveller ;1;Travel carriage ESBL;;Canada
+28;Peirano et al 2017;Acquisition rate of returning traveller ;prevalence of canadian travellers acquired ESBL;73;percent;2012-2014;year;IN;India;90;traveller ;9.49;Travel carriage ESBL;;Canada
+28;Peirano et al 2017;Acquisition rate of returning traveller ;prevalence of canadian travellers acquired ESBL;22;percent;2012-2014;year;NP;Nepal;9;traveller ;3;Travel carriage ESBL;;Canada
+28;Peirano et al 2017;Acquisition rate of returning traveller ;prevalence of canadian travellers acquired ESBL;100;percent;2012-2014;year;PK;Pakistan;1;traveller ;1;Travel carriage ESBL;;Canada
+28;Peirano et al 2017;Acquisition rate of returning traveller ;prevalence of canadian travellers acquired ESBL;64;percent;2012-2014;year;8S;South Asia;109;traveller ;10.44;Travel carriage ESBL;;Canada
+28;Peirano et al 2017;Acquisition rate of returning traveller ;prevalence of canadian travellers acquired ESBL;2;percent;2012-2014;year;8S;South Asia;109;traveller ;10.44;Travel carriage ESBL;AmpC;Canada
+28;Peirano et al 2017;Acquisition rate of returning traveller ;prevalence of canadian travellers acquired ESBL;21;percent;2012-2014;year;8S;South Asia;70;traveller ;8.37;Travel carriage ESBL;6 months post travel;Canada
+28;Peirano et al 2017;Acquisition rate of returning traveller ;prevalence of canadian travellers acquired ESBL;0;percent;2012-2014;year;LK;Sri Lanka;8;traveller ;2.83;Travel carriage ESBL;;Canada
+29;Arcilla et al 2017;Acquisition rate of returning traveller ;prevalence of dutch travellers acquired ESBL;8;percent;2001;year;BR;Brazil;25;traveller ;5;Travel carriage ESBL;Incidenec/100pdt 0.42;Netherlands
+29;Arcilla et al 2017;Acquisition rate of returning traveller ;prevalence of dutch travellers acquired ESBL;54;percent;2001;year;CL;China;67;traveller ;8.19;Travel carriage ESBL;Incidenec/100pdt 4.19;Netherlands
+29;Arcilla et al 2017;Acquisition rate of returning traveller ;prevalence of dutch travellers acquired ESBL;80;percent;2001;year;EG;Egypt, Arab Rep.;30;traveller ;5.48;Travel carriage ESBL;Incidenec/100pdt 13.98;Netherlands
+29;Arcilla et al 2017;Acquisition rate of returning traveller ;prevalence of dutch travellers acquired ESBL;16;percent;2001;year;GM;Gambia, The;49;traveller ;7;Travel carriage ESBL;Incidenec/100pdt 1.30;Netherlands
+29;Arcilla et al 2017;Acquisition rate of returning traveller ;prevalence of dutch travellers acquired ESBL;40;percent;2001;year;GH;Ghana;20;traveller ;4.47;Travel carriage ESBL;Incidenec/100pdt 2.65;Netherlands
+29;Arcilla et al 2017;Acquisition rate of returning traveller ;prevalence of dutch travellers acquired ESBL;89;percent;2001;year;IN;India;79;traveller ;8.89;Travel carriage ESBL;Incidenec/100pdt 12.18;Netherlands
+29;Arcilla et al 2017;Acquisition rate of returning traveller ;prevalence of dutch travellers acquired ESBL;19;percent;2001;year;ID;Indonesia;211;traveller ;14.53;Travel carriage ESBL;Incidenec/100pdt 0.92;Netherlands
+29;Arcilla et al 2017;Acquisition rate of returning traveller ;prevalence of dutch travellers acquired ESBL;33;percent;2001;year;KE;Kenya;30;traveller ;5.48;Travel carriage ESBL;Incidenec/100pdt 1.95;Netherlands
+29;Arcilla et al 2017;Acquisition rate of returning traveller ;prevalence of dutch travellers acquired ESBL;22;percent;2001;year;MX;Mexico;18;traveller ;4.24;Travel carriage ESBL;Incidenec/100pdt 1.73;Netherlands
+29;Arcilla et al 2017;Acquisition rate of returning traveller ;prevalence of dutch travellers acquired ESBL;22;percent;2001;year;MA;Morocco;36;traveller ;6;Travel carriage ESBL;Incidenec/100pdt 7.21;Netherlands
+29;Arcilla et al 2017;Acquisition rate of returning traveller ;prevalence of dutch travellers acquired ESBL;25;percent;2001;year;MY;Malaysia;28;traveller ;5.29;Travel carriage ESBL;Incidenec/100pdt 1.50;Netherlands
+29;Arcilla et al 2017;Acquisition rate of returning traveller ;prevalence of dutch travellers acquired ESBL;53;percent;2001;year;MM;Myanmar;15;traveller ;3.87;Travel carriage ESBL;Incidenec/100pdt 3.91;Netherlands
+29;Arcilla et al 2017;Acquisition rate of returning traveller ;prevalence of dutch travellers acquired ESBL;79;percent;2001;year;NP;Nepal;29;traveller ;5.39;Travel carriage ESBL;Incidenec/100pdt 7.49;Netherlands
+29;Arcilla et al 2017;Acquisition rate of returning traveller ;prevalence of dutch travellers acquired ESBL;60;percent;2001;year;PE;Peru;20;traveller ;4.47;Travel carriage ESBL;Incidenec/100pdt 4.28;Netherlands
+29;Arcilla et al 2017;Acquisition rate of returning traveller ;prevalence of dutch travellers acquired ESBL;5;percent;2001;year;ZG;South Africa;66;traveller ;8.12;Travel carriage ESBL;Incidenec/100pdt 0.22;Netherlands
+29;Arcilla et al 2017;Acquisition rate of returning traveller ;prevalence of dutch travellers acquired ESBL;51;percent;2001;year;LK;Sri Lanka;43;traveller ;6.56;Travel carriage ESBL;Incidenec/100pdt 3.66;Netherlands
+29;Arcilla et al 2017;Acquisition rate of returning traveller ;prevalence of dutch travellers acquired ESBL;4;percent;2001;year;SR;Suriname;56;traveller ;7.48;Travel carriage ESBL;Incidenec/100pdt 0.14;Netherlands
+29;Arcilla et al 2017;Acquisition rate of returning traveller ;prevalence of dutch travellers acquired ESBL;25;percent;2001;year;TZ;Tanzania;57;traveller ;7.55;Travel carriage ESBL;Incidenec/100pdt 1.73;Netherlands
+29;Arcilla et al 2017;Acquisition rate of returning traveller ;prevalence of dutch travellers acquired ESBL;52;percent;2001;year;TH;Thailand;89;traveller ;9.43;Travel carriage ESBL;Incidenec/100pdt 3.78;Netherlands
+29;Arcilla et al 2017;Acquisition rate of returning traveller ;prevalence of dutch travellers acquired ESBL;44;percent;2001;year;TR;Turkey;16;traveller ;4;Travel carriage ESBL;Incidenec/100pdt 6.03;Netherlands
+29;Arcilla et al 2017;Acquisition rate of returning traveller ;prevalence of dutch travellers acquired ESBL;44;percent;2001;year;UG;Uganda;27;traveller ;5.2;Travel carriage ESBL;Incidenec/100pdt 2.65;Netherlands
+29;Arcilla et al 2017;Acquisition rate of returning traveller ;prevalence of dutch travellers acquired ESBL;72;percent;2001;year;VN;Vietnam;36;traveller ;6;Travel carriage ESBL;Incidenec/100pdt 6.10;Netherlands
+29;Arcilla et al 2017;Persistance rate of returning traveller ;Persistent carriage of same ESBL group ;100;percent;2001;year;XP;Outside EU;623;traveller ;24.96;Travel carriage ESBL;Immerdiate post travel;Netherlands
+29;Arcilla et al 2017;Persistance rate of returning traveller ;Persistent carriage of same ESBL group ;43;percent;2001;year;XP;Outside EU;613;traveller ;24.76;Travel carriage ESBL;1 month post travel;Netherlands
+29;Arcilla et al 2017;Persistance rate of returning traveller ;Persistent carriage of same ESBL group ;22;percent;2001;year;XP;Outside EU;606;traveller ;24.62;Travel carriage ESBL;3 months post travel;Netherlands
+29;Arcilla et al 2017;Persistance rate of returning traveller ;Persistent carriage of same ESBL group ;11;percent;2001;year;XP;Outside EU;601;traveller ;24.52;Travel carriage ESBL;6 months post travel;Netherlands
+29;Arcilla et al 2017;Persistance rate of returning traveller ;Persistent carriage of same ESBL group ;7;percent;2001;year;XP;Outside EU;577;traveller ;24.02;Travel carriage ESBL;12 months post travel;Netherlands
+30;Miranda et al 2016;Acquisition rate of returning traveller ;prevalence of ESBL in Germany traveller with gastrointestical symptom;34;percent;2013;year;XO;Africa;27;traveller ;5.2;Travel carriage ESBL;;Germany
+30;Miranda et al 2016;Acquisition rate of returning traveller ;prevalence of ESBL in Germany traveller with gastrointestical symptom;43;percent;2013;year;XO;Asia outside SEA;7;traveller ;2.65;Travel carriage ESBL;;Germany
+30;Miranda et al 2016;Acquisition rate of returning traveller ;prevalence of ESBL in Germany traveller with gastrointestical symptom;60;percent;2013;year;XO;Asia southeast;39;traveller ;6.24;Travel carriage ESBL;;Germany
+30;Miranda et al 2016;Acquisition rate of returning traveller ;prevalence of ESBL in Germany traveller with gastrointestical symptom;0;percent;2013;year;XD;EU/North America;5;traveller ;2.24;Travel carriage ESBL;;Germany
+30;Miranda et al 2016;Acquisition rate of returning traveller ;prevalence of ESBL in Germany traveller with gastrointestical symptom;72;percent;2013;year;IN;India;81;traveller ;9;Travel carriage ESBL;;Germany
+30;Miranda et al 2016;Acquisition rate of returning traveller ;prevalence of ESBL in Germany traveller with gastrointestical symptom;15;percent;2013;year;ZJ;Latin America & Caribbean;21;traveller ;4.58;Travel carriage ESBL;;Germany
+30;Miranda et al 2016;Acquisition rate of returning traveller ;prevalence of ESBL in Germany traveller with gastrointestical symptom;40;percent;2013;year;8S;South Asia;15;traveller ;3.87;Travel carriage ESBL;;Germany
+30;Miranda et al 2016;Acquisition rate of returning traveller ;prevalence of ESBL in Germany traveller with gastrointestical symptom;32;percent;2013;year;TH;Thailand;16;traveller ;4;Travel carriage ESBL;;Germany
+31;Angelin et al 2015;Acquisition rate of returning traveller ;prevalence of ESBL in Germany traveller with gastrointestical symptom;10;percent;2010-2014;year;XO;Africa;40;traveller ;6.32;Travel carriage ESBL;;Germany
+31;Angelin et al 2015;Acquisition rate of returning traveller ;prevalence of ESBL in Germany traveller with gastrointestical symptom;0;percent;2010-2014;year;AR;Argentina;2;traveller ;1.41;Travel carriage ESBL;;Germany
+31;Angelin et al 2015;Acquisition rate of returning traveller ;prevalence of ESBL in Germany traveller with gastrointestical symptom;67;percent;2010-2014;year;XO;Asia southeast;46;traveller ;6.78;Travel carriage ESBL;;Germany
+31;Angelin et al 2015;Acquisition rate of returning traveller ;prevalence of ESBL in Germany traveller with gastrointestical symptom;0;percent;2010-2014;year;BR;Brazil;1;traveller ;1;Travel carriage ESBL;;Germany
+31;Angelin et al 2015;Acquisition rate of returning traveller ;prevalence of ESBL in Germany traveller with gastrointestical symptom;14;percent;2010-2014;year;CM;Cameroon;22;traveller ;4.69;Travel carriage ESBL;;Germany
+31;Angelin et al 2015;Acquisition rate of returning traveller ;prevalence of ESBL in Germany traveller with gastrointestical symptom;0;percent;2010-2014;year;CA;Canada;1;traveller ;1;Travel carriage ESBL;;Germany
+31;Angelin et al 2015;Acquisition rate of returning traveller ;prevalence of ESBL in Germany traveller with gastrointestical symptom;0;percent;2010-2014;year;CR;Costa Rica;1;traveller ;1;Travel carriage ESBL;;Germany
+31;Angelin et al 2015;Acquisition rate of returning traveller ;prevalence of ESBL in Germany traveller with gastrointestical symptom;70;percent;2010-2014;year;IN;India;30;traveller ;5.48;Travel carriage ESBL;;Germany
+31;Angelin et al 2015;Acquisition rate of returning traveller ;prevalence of ESBL in Germany traveller with gastrointestical symptom;0;percent;2010-2014;year;IL;Israel;1;traveller ;1;Travel carriage ESBL;;Germany
+31;Angelin et al 2015;Acquisition rate of returning traveller ;prevalence of ESBL in Germany traveller with gastrointestical symptom;0;percent;2010-2014;year;GB;United Kingdom;1;traveller ;1;Travel carriage ESBL;;Germany
+31;Angelin et al 2015;Acquisition rate of returning traveller ;prevalence of ESBL in Germany traveller with gastrointestical symptom;0;percent;2010-2014;year;US;United States;3;traveller ;1.73;Travel carriage ESBL;;Germany
+31;Angelin et al 2015;Acquisition rate of returning traveller ;prevalence of ESBL in Germany traveller with gastrointestical symptom;0;percent;2010-2014;year;UY;Uruguay;1;traveller ;1;Travel carriage ESBL;;Germany
+31;Angelin et al 2015;Acquisition rate of returning traveller ;prevalence of ESBL in Germany traveller with gastrointestical symptom;0;percent;2010-2014;year;UZ;Uzbekistan;2;traveller ;1.41;Travel carriage ESBL;;Germany
+31;Angelin et al 2015;Acquisition rate of returning traveller ;prevalence of ESBL in Germany traveller with gastrointestical symptom;86;percent;2010-2014;year;VN;Vietnam;7;traveller ;2.65;Travel carriage ESBL;;Germany
+32;Tangden et al 2010;Acquisition rate of returning traveller ;prevalence of swedish travellers acquired ESBL;4;percent;2007;year;XO;Africa;25;traveller ;5;Travel carriage ESBL;;Sweden
+32;Tangden et al 2010;Acquisition rate of returning traveller ;prevalence of swedish travellers acquired ESBL;32;percent;2007;year;XP;Asia ;31;traveller ;5.57;Travel carriage ESBL;;Sweden
+32;Tangden et al 2010;Acquisition rate of returning traveller ;prevalence of swedish travellers acquired ESBL;88;percent;2007;year;IN;India;8;traveller ;2.83;Travel carriage ESBL;;Sweden
+32;Tangden et al 2010;Acquisition rate of returning traveller ;prevalence of swedish travellers acquired ESBL;0;percent;2007;year;ZJ;Latin America & Caribbean;6;traveller ;2.45;Travel carriage ESBL;;Sweden
+32;Tangden et al 2010;Acquisition rate of returning traveller ;prevalence of swedish travellers acquired ESBL;0;percent;2007;year;ZJ;Latin America & Caribbean;1;traveller ;1;Travel carriage ESBL;;Sweden
+32;Tangden et al 2010;Acquisition rate of returning traveller ;prevalence of swedish travellers acquired ESBL;29;percent;2007;year;ZQ;Middle East & North Africa;14;traveller ;3.74;Travel carriage ESBL;;Sweden
+32;Tangden et al 2010;Acquisition rate of returning traveller ;prevalence of swedish travellers acquired ESBL;13;percent;2007;year;XD;South Europe;16;traveller ;4;Travel carriage ESBL;;Sweden
+32;Tangden et al 2010;Acquisition rate of returning traveller ;prevalence of swedish travellers acquired ESBL;0;percent;2007;year;US;United States;2;traveller ;1.41;Travel carriage ESBL;;Sweden
 33;Kassenborg et al 2004;CommunityESBL;prevalence resistance;11;percent;1998-1999;year;US;United States;858;Campylobater infection cases;29.29;fluoroquinolone resistance ;;
 33;Kassenborg et al 2004;CommunityESBL;prevalence resistance;5;percent;1998-1999;year;US;United States;339;Campylobater infection cases;18.41;fluoroquinolone resistance ;Minnesota;
 33;Kassenborg et al 2004;CommunityESBL;prevalence resistance;16;percent;1998-1999;year;US;United States;292;Campylobater infection cases;17.09;fluoroquinolone resistance ;Connecticut ;
 34;hijazi et al 2016;CommunityESBL;prevalence ESBL in healthy students;25;percent;2013;year;LB;Lebanon;125;children;11.18;MDR;;
-35;Carmo et al 2014;AnimalESBL;Prevalence of ESBL in Danish broiler meat;45;percent;2009-2011;year;DK;Denmark;571;Broiler meat ;23.9;;21 percent CMY;
-36;Chah KF et al 2018;AnimalESBL;ESBL prevalence in broiler chicken;4;percent;2015-2016;year;NG;Nigeria;410;Broiler meat ;20.25;cefotaxime;Nsukka chicken farm;
-37;Tippelskirch et al 2018;AnimalESBL;ESBL prevalence in broiler chicken;47;percent;2014-2016;year;DE;Germany;175;broiler sample;13.23;cefotaxime;caecum ;
-37;Tippelskirch et al 2018;AnimalESBL;ESBL prevalence in broiler chicken;55;percent;2014-2016;year;DE;Germany;175;broiler sample;13.23;cefotaxime;skin ;
-37;Tippelskirch et al 2018;AnimalESBL;ESBL prevalence in broiler chicken;28;percent;2014-2016;year;DE;Germany;175;broiler sample;13.23;cefotaxime;filet;
-38;Eibach et al 2018;AnimalESBL;ESBL prevalence in chicken meat from Ghana market;88;percent;2015;year;BE;Belgium;8;broiler sample;2.83;cefotaxime&Ceftazidime;frozen and fresh chicken meat from 75 supermarkets in Kumasi city;
-38;Eibach et al 2018;AnimalESBL;ESBL prevalence in chicken meat from Ghana market;32;percent;2015;year;BR;Brazil;31;broiler sample;5.57;cefotaxime&Ceftazidime;frozen and fresh chicken meat from 75 supermarkets in Kumasi city;
-38;Eibach et al 2018;AnimalESBL;ESBL prevalence in chicken meat from Ghana market;44;percent;2015;year;GH;Ghana;68;broiler sample;8.25;cefotaxime&Ceftazidime;frozen and fresh chicken meat from 75 supermarkets in Kumasi city;
-38;Eibach et al 2018;AnimalESBL;ESBL prevalence in chicken meat from Ghana market;23;percent;2015;year;GH;Ghana;31;broiler sample;5.57;cefotaxime&Ceftazidime;frozen and fresh chicken meat from 75 supermarkets in Kumasi city;
-38;Eibach et al 2018;AnimalESBL;ESBL prevalence in chicken meat from Ghana market;26;percent;2015;year;NL;Netherlands;38;broiler sample;6.16;cefotaxime&Ceftazidime;frozen and fresh chicken meat from 75 supermarkets in Kumasi city;
-39;Dandachi et al 2018;AnimalESBL;ESBL prevalence in broiler chicken;41;percent;2015;year;LB;Lebanon;27;rectal sample;5.2;MDR ;farm size 18000;
-39;Dandachi et al 2018;AnimalESBL;ESBL prevalence in broiler chicken;19;percent;2015;year;LB;Lebanon;27;rectal sample;5.2;MDR ;farm size 11300;
-39;Dandachi et al 2018;AnimalESBL;ESBL prevalence in broiler chicken;7;percent;2015;year;LB;Lebanon;27;rectal sample;5.2;MDR ;farm size 20000;
-39;Dandachi et al 2018;AnimalESBL;ESBL prevalence in broiler chicken;45;percent;2015;year;LB;Lebanon;20;rectal sample;4.47;MDR ;farm size 23000;
-39;Dandachi et al 2018;AnimalESBL;ESBL prevalence in broiler chicken;70;percent;2015;year;LB;Lebanon;20;rectal sample;4.47;MDR ;farm size 4000;
-39;Dandachi et al 2018;AnimalESBL;ESBL prevalence in broiler chicken;65;percent;2015;year;LB;Lebanon;20;rectal sample;4.47;MDR ;farm size 20000;
-39;Dandachi et al 2018;AnimalESBL;ESBL prevalence in broiler chicken;40;percent;2015;year;LB;Lebanon;20;rectal sample;4.47;MDR ;farm size 15000;
-39;Dandachi et al 2018;AnimalESBL;ESBL prevalence in broiler chicken;25;percent;2015;year;LB;Lebanon;20;rectal sample;4.47;MDR ;farm size 5000;
-39;Dandachi et al 2018;AnimalESBL;ESBL prevalence in broiler chicken;25;percent;2015;year;LB;Lebanon;20;rectal sample;4.47;MDR ;farm size 4000;
-39;Dandachi et al 2018;AnimalESBL;ESBL prevalence in broiler chicken;45;percent;2015;year;LB;Lebanon;20;rectal sample;4.47;MDR ;farm size 6000;
-39;Dandachi et al 2018;AnimalESBL;ESBL prevalence in broiler chicken;55;percent;2015;year;LB;Lebanon;20;rectal sample;4.47;MDR ;farm size 4600;
-39;Dandachi et al 2018;AnimalESBL;ESBL prevalence in broiler chicken;55;percent;2015;year;LB;Lebanon;20;rectal sample;4.47;MDR ;farm size 15000;
-39;Dandachi et al 2018;AnimalESBL;ESBL prevalence in broiler chicken;5;percent;2015;year;LB;Lebanon;20;rectal sample;4.47;MDR ;farm size 6000;
-39;Dandachi et al 2018;AnimalESBL;ESBL prevalence in broiler chicken;20;percent;2015;year;LB;Lebanon;20;rectal sample;4.47;MDR ;farm size 10700;
-39;Dandachi et al 2018;AnimalESBL;ESBL prevalence in broiler chicken;30;percent;2015;year;LB;Lebanon;20;rectal sample;4.47;MDR ;farm size 5000;
-39;Dandachi et al 2018;AnimalESBL;ESBL prevalence in broiler chicken;15;percent;2015;year;LB;Lebanon;20;rectal sample;4.47;MDR ;farm size 3000;
-39;Dandachi et al 2018;AnimalESBL;ESBL prevalence in broiler chicken;5;percent;2015;year;LB;Lebanon;20;rectal sample;4.47;MDR ;farm size 6000;
-39;Dandachi et al 2018;AnimalESBL;ESBL prevalence in broiler chicken;30;percent;2015;year;LB;Lebanon;20;rectal sample;4.47;MDR ;farm size 6000;
-39;Dandachi et al 2018;AnimalESBL;ESBL prevalence in broiler chicken;15;percent;2015;year;LB;Lebanon;20;rectal sample;4.47;MDR ;farm size 6000;
-39;Dandachi et al 2018;AnimalESBL;ESBL prevalence in broiler chicken;15;percent;2015;year;LB;Lebanon;20;rectal sample;4.47;MDR ;farm size 5000;
-39;Dandachi et al 2018;AnimalESBL;ESBL prevalence in broiler chicken;15;percent;2015;year;LB;Lebanon;20;rectal sample;4.47;MDR ;farm size 6500;
-39;Dandachi et al 2018;AnimalESBL;ESBL prevalence in broiler chicken;5;percent;2015;year;LB;Lebanon;21;rectal sample;4.58;MDR ;farm size 6700;
-39;Dandachi et al 2018;AnimalESBL;ESBL prevalence in broiler chicken;20;percent;2015;year;LB;Lebanon;20;rectal sample;4.47;MDR ;farm size 11800;
-39;Dandachi et al 2018;AnimalESBL;ESBL prevalence in broiler chicken;10;percent;2015;year;LB;Lebanon;20;rectal sample;4.47;MDR ;farm size 10000;
-39;Dandachi et al 2018;AnimalESBL;ESBL prevalence in broiler chicken;5;percent;2015;year;LB;Lebanon;20;rectal sample;4.47;MDR ;farm size 10000;
-39;Dandachi et al 2018;AnimalESBL;ESBL prevalence in broiler chicken;5;percent;2015;year;LB;Lebanon;20;rectal sample;4.47;MDR ;farm size 5000;
-39;Dandachi et al 2018;AnimalESBL;ESBL prevalence in broiler chicken;40;percent;2015;year;LB;Lebanon;20;rectal sample;4.47;MDR ;farm size 10000;
-39;Dandachi et al 2018;AnimalESBL;ESBL prevalence in broiler chicken;20;percent;2015;year;LB;Lebanon;20;rectal sample;4.47;MDR ;farm size 5000;
-39;Dandachi et al 2018;AnimalESBL;ESBL prevalence in broiler chicken;35;percent;2015;year;LB;Lebanon;20;rectal sample;4.47;MDR ;farm size 5000;
-39;Dandachi et al 2018;AnimalESBL;ESBL prevalence in broiler chicken;10;percent;2015;year;LB;Lebanon;20;rectal sample;4.47;MDR ;farm size 10000;
-39;Dandachi et al 2018;AnimalESBL;ESBL prevalence in broiler chicken;20;percent;2015;year;LB;Lebanon;20;rectal sample;4.47;MDR ;farm size 10000;
-39;Dandachi et al 2018;AnimalESBL;ESBL prevalence in broiler chicken;25;percent;2015;year;LB;Lebanon;20;rectal sample;4.47;MDR ;farm size 18000;
-39;Dandachi et al 2018;AnimalESBL;ESBL prevalence in broiler chicken;15;percent;2015;year;LB;Lebanon;20;rectal sample;4.47;MDR ;farm size 6000;
-39;Dandachi et al 2018;AnimalESBL;ESBL prevalence in broiler chicken;30;percent;2015;year;LB;Lebanon;20;rectal sample;4.47;MDR ;farm size 6000;
-39;Dandachi et al 2018;AnimalESBL;ESBL prevalence in broiler chicken;50;percent;2015;year;LB;Lebanon;20;rectal sample;4.47;MDR ;farm size 3300;
-39;Dandachi et al 2018;AnimalESBL;ESBL prevalence in broiler chicken;25;percent;2015;year;LB;Lebanon;20;rectal sample;4.47;MDR ;farm size 10000;
-39;Dandachi et al 2018;AnimalESBL;ESBL prevalence in broiler chicken;5;percent;2015;year;LB;Lebanon;20;rectal sample;4.47;MDR ;farm size 10000;
-39;Dandachi et al 2018;AnimalESBL;ESBL prevalence in broiler chicken;30;percent;2015;year;LB;Lebanon;20;rectal sample;4.47;MDR ;farm size 10000;
-40;Shrestha et al 2017 ;AnimalESBL;ESBL prevalence in broiler chicken;37;percent;2017;year;NP;Nepal;27;0.37037037;5.2;MDR ;good sanitation ;
-40;Shrestha et al 2017 ;AnimalESBL;ESBL prevalence in broiler chicken;39;percent;2017;year;NP;Nepal;76;0.394736842;8.72;MDR ;poor sanitation;
+35;Carmo et al 2014;AnimalESBL;Prevalence of ESBL in Danish broiler meat;45;percent;2009-2011;year;DK;Denmark;571;Broiler meat ;23.9;;21 percent CMY;chicken
+36;Chah KF et al 2018;AnimalESBL;ESBL prevalence in broiler chicken;4;percent;2015-2016;year;NG;Nigeria;410;Broiler meat ;20.25;cefotaxime;Nsukka chicken farm;chicken
+37;Tippelskirch et al 2018;AnimalESBL;ESBL prevalence in broiler chicken;47;percent;2014-2016;year;DE;Germany;175;broiler sample;13.23;cefotaxime;caecum ;chicken
+37;Tippelskirch et al 2018;AnimalESBL;ESBL prevalence in broiler chicken;55;percent;2014-2016;year;DE;Germany;175;broiler sample;13.23;cefotaxime;skin ;chicken
+37;Tippelskirch et al 2018;AnimalESBL;ESBL prevalence in broiler chicken;28;percent;2014-2016;year;DE;Germany;175;broiler sample;13.23;cefotaxime;filet;chicken
+38;Eibach et al 2018;AnimalESBL;ESBL prevalence in chicken meat from Ghana market;88;percent;2015;year;BE;Belgium;8;broiler sample;2.83;cefotaxime&Ceftazidime;frozen and fresh chicken meat from 75 supermarkets in Kumasi city;chicken
+38;Eibach et al 2018;AnimalESBL;ESBL prevalence in chicken meat from Ghana market;32;percent;2015;year;BR;Brazil;31;broiler sample;5.57;cefotaxime&Ceftazidime;frozen and fresh chicken meat from 75 supermarkets in Kumasi city;chicken
+38;Eibach et al 2018;AnimalESBL;ESBL prevalence in chicken meat from Ghana market;44;percent;2015;year;GH;Ghana;68;broiler sample;8.25;cefotaxime&Ceftazidime;frozen and fresh chicken meat from 75 supermarkets in Kumasi city;chicken
+38;Eibach et al 2018;AnimalESBL;ESBL prevalence in chicken meat from Ghana market;23;percent;2015;year;GH;Ghana;31;broiler sample;5.57;cefotaxime&Ceftazidime;frozen and fresh chicken meat from 75 supermarkets in Kumasi city;chicken
+38;Eibach et al 2018;AnimalESBL;ESBL prevalence in chicken meat from Ghana market;26;percent;2015;year;NL;Netherlands;38;broiler sample;6.16;cefotaxime&Ceftazidime;frozen and fresh chicken meat from 75 supermarkets in Kumasi city;chicken
+39;Dandachi et al 2018;AnimalESBL;ESBL prevalence in broiler chicken;41;percent;2015;year;LB;Lebanon;27;rectal sample;5.2;MDR ;farm size 18000;chicken
+39;Dandachi et al 2018;AnimalESBL;ESBL prevalence in broiler chicken;19;percent;2015;year;LB;Lebanon;27;rectal sample;5.2;MDR ;farm size 11300;chicken
+39;Dandachi et al 2018;AnimalESBL;ESBL prevalence in broiler chicken;7;percent;2015;year;LB;Lebanon;27;rectal sample;5.2;MDR ;farm size 20000;chicken
+39;Dandachi et al 2018;AnimalESBL;ESBL prevalence in broiler chicken;45;percent;2015;year;LB;Lebanon;20;rectal sample;4.47;MDR ;farm size 23000;chicken
+39;Dandachi et al 2018;AnimalESBL;ESBL prevalence in broiler chicken;70;percent;2015;year;LB;Lebanon;20;rectal sample;4.47;MDR ;farm size 4000;chicken
+39;Dandachi et al 2018;AnimalESBL;ESBL prevalence in broiler chicken;65;percent;2015;year;LB;Lebanon;20;rectal sample;4.47;MDR ;farm size 20000;chicken
+39;Dandachi et al 2018;AnimalESBL;ESBL prevalence in broiler chicken;40;percent;2015;year;LB;Lebanon;20;rectal sample;4.47;MDR ;farm size 15000;chicken
+39;Dandachi et al 2018;AnimalESBL;ESBL prevalence in broiler chicken;25;percent;2015;year;LB;Lebanon;20;rectal sample;4.47;MDR ;farm size 5000;chicken
+39;Dandachi et al 2018;AnimalESBL;ESBL prevalence in broiler chicken;25;percent;2015;year;LB;Lebanon;20;rectal sample;4.47;MDR ;farm size 4000;chicken
+39;Dandachi et al 2018;AnimalESBL;ESBL prevalence in broiler chicken;45;percent;2015;year;LB;Lebanon;20;rectal sample;4.47;MDR ;farm size 6000;chicken
+39;Dandachi et al 2018;AnimalESBL;ESBL prevalence in broiler chicken;55;percent;2015;year;LB;Lebanon;20;rectal sample;4.47;MDR ;farm size 4600;chicken
+39;Dandachi et al 2018;AnimalESBL;ESBL prevalence in broiler chicken;55;percent;2015;year;LB;Lebanon;20;rectal sample;4.47;MDR ;farm size 15000;chicken
+39;Dandachi et al 2018;AnimalESBL;ESBL prevalence in broiler chicken;5;percent;2015;year;LB;Lebanon;20;rectal sample;4.47;MDR ;farm size 6000;chicken
+39;Dandachi et al 2018;AnimalESBL;ESBL prevalence in broiler chicken;20;percent;2015;year;LB;Lebanon;20;rectal sample;4.47;MDR ;farm size 10700;chicken
+39;Dandachi et al 2018;AnimalESBL;ESBL prevalence in broiler chicken;30;percent;2015;year;LB;Lebanon;20;rectal sample;4.47;MDR ;farm size 5000;chicken
+39;Dandachi et al 2018;AnimalESBL;ESBL prevalence in broiler chicken;15;percent;2015;year;LB;Lebanon;20;rectal sample;4.47;MDR ;farm size 3000;chicken
+39;Dandachi et al 2018;AnimalESBL;ESBL prevalence in broiler chicken;5;percent;2015;year;LB;Lebanon;20;rectal sample;4.47;MDR ;farm size 6000;chicken
+39;Dandachi et al 2018;AnimalESBL;ESBL prevalence in broiler chicken;30;percent;2015;year;LB;Lebanon;20;rectal sample;4.47;MDR ;farm size 6000;chicken
+39;Dandachi et al 2018;AnimalESBL;ESBL prevalence in broiler chicken;15;percent;2015;year;LB;Lebanon;20;rectal sample;4.47;MDR ;farm size 6000;chicken
+39;Dandachi et al 2018;AnimalESBL;ESBL prevalence in broiler chicken;15;percent;2015;year;LB;Lebanon;20;rectal sample;4.47;MDR ;farm size 5000;chicken
+39;Dandachi et al 2018;AnimalESBL;ESBL prevalence in broiler chicken;15;percent;2015;year;LB;Lebanon;20;rectal sample;4.47;MDR ;farm size 6500;chicken
+39;Dandachi et al 2018;AnimalESBL;ESBL prevalence in broiler chicken;5;percent;2015;year;LB;Lebanon;21;rectal sample;4.58;MDR ;farm size 6700;chicken
+39;Dandachi et al 2018;AnimalESBL;ESBL prevalence in broiler chicken;20;percent;2015;year;LB;Lebanon;20;rectal sample;4.47;MDR ;farm size 11800;chicken
+39;Dandachi et al 2018;AnimalESBL;ESBL prevalence in broiler chicken;10;percent;2015;year;LB;Lebanon;20;rectal sample;4.47;MDR ;farm size 10000;chicken
+39;Dandachi et al 2018;AnimalESBL;ESBL prevalence in broiler chicken;5;percent;2015;year;LB;Lebanon;20;rectal sample;4.47;MDR ;farm size 10000;chicken
+39;Dandachi et al 2018;AnimalESBL;ESBL prevalence in broiler chicken;5;percent;2015;year;LB;Lebanon;20;rectal sample;4.47;MDR ;farm size 5000;chicken
+39;Dandachi et al 2018;AnimalESBL;ESBL prevalence in broiler chicken;40;percent;2015;year;LB;Lebanon;20;rectal sample;4.47;MDR ;farm size 10000;chicken
+39;Dandachi et al 2018;AnimalESBL;ESBL prevalence in broiler chicken;20;percent;2015;year;LB;Lebanon;20;rectal sample;4.47;MDR ;farm size 5000;chicken
+39;Dandachi et al 2018;AnimalESBL;ESBL prevalence in broiler chicken;35;percent;2015;year;LB;Lebanon;20;rectal sample;4.47;MDR ;farm size 5000;chicken
+39;Dandachi et al 2018;AnimalESBL;ESBL prevalence in broiler chicken;10;percent;2015;year;LB;Lebanon;20;rectal sample;4.47;MDR ;farm size 10000;chicken
+39;Dandachi et al 2018;AnimalESBL;ESBL prevalence in broiler chicken;20;percent;2015;year;LB;Lebanon;20;rectal sample;4.47;MDR ;farm size 10000;chicken
+39;Dandachi et al 2018;AnimalESBL;ESBL prevalence in broiler chicken;25;percent;2015;year;LB;Lebanon;20;rectal sample;4.47;MDR ;farm size 18000;chicken
+39;Dandachi et al 2018;AnimalESBL;ESBL prevalence in broiler chicken;15;percent;2015;year;LB;Lebanon;20;rectal sample;4.47;MDR ;farm size 6000;chicken
+39;Dandachi et al 2018;AnimalESBL;ESBL prevalence in broiler chicken;30;percent;2015;year;LB;Lebanon;20;rectal sample;4.47;MDR ;farm size 6000;chicken
+39;Dandachi et al 2018;AnimalESBL;ESBL prevalence in broiler chicken;50;percent;2015;year;LB;Lebanon;20;rectal sample;4.47;MDR ;farm size 3300;chicken
+39;Dandachi et al 2018;AnimalESBL;ESBL prevalence in broiler chicken;25;percent;2015;year;LB;Lebanon;20;rectal sample;4.47;MDR ;farm size 10000;chicken
+39;Dandachi et al 2018;AnimalESBL;ESBL prevalence in broiler chicken;5;percent;2015;year;LB;Lebanon;20;rectal sample;4.47;MDR ;farm size 10000;chicken
+39;Dandachi et al 2018;AnimalESBL;ESBL prevalence in broiler chicken;30;percent;2015;year;LB;Lebanon;20;rectal sample;4.47;MDR ;farm size 10000;chicken
+40;Shrestha et al 2017 ;AnimalESBL;ESBL prevalence in broiler chicken;37;percent;2017;year;NP;Nepal;27;0.37037037;5.2;MDR ;good sanitation ;chicken
+40;Shrestha et al 2017 ;AnimalESBL;ESBL prevalence in broiler chicken;39;percent;2017;year;NP;Nepal;76;0.394736842;8.72;MDR ;poor sanitation;chicken
 41;Woerther 2013;CommunityESBL;Ecol;12;percent;2010-2011;year;BE;Belgium;337;adults;18.36;;;
 41;Woerther 2013;CommunityESBL;Ecol;0;percent;2002;year;XP;Bolivia and Peru;3208;adults;56.64;;;
 41;Woerther 2013;CommunityESBL;Ecol;2;percent;2005;year;XP;Bolivia and Peru;3193;adults;56.51;;;
@@ -386,7 +385,7 @@ Unq_ID;DataOrigin;TraitName;TraitDef;TraitValue;TraitUnit;Time;TimeUnit;Location
 42;Thi Mai Huong Bui 2015;CommunityESBL;Healthy adults in Bavoi ditrict total isolates 199 healthy adults 597 from three sampling moments;47;percent;2013;year;VN;Vietnam;199;adults;14.11;;;
 42;Thi Mai Huong Bui 2015;CommunityESBL;Healthy adults in Bavoi ditrict total isolates 597 from three sampling moments;53;percent;2013;year;VN;Vietnam;199;adults;14.11;;;
 42;Thi Mai Huong Bui 2015;CommunityESBL;Healthy adults in Bavoi ditrict total isolates 597 from three sampling moments;46;percent;2014;year;VN;Vietnam;199;adults;14.11;;;
-42;Yang et al 2010;AnimalESBL;prevalence resistance in chicken meat ;25;percent;2009;year;CL;China;292;isolates;;ESBL ;;
-42;Yang et al 2010;AnimalESBL;prevalence resistance in pork meat ;39;percent;2009;year;CL;China;38;isolates;;ESBL ;;
-42;Yang et al 2010;AnimalESBL;prevalence resistance in beef meat ;23;percent;2009;year;CL;China;13;isolates;;ESBL ;;
-42;Yang et al 2010;AnimalESBL;prevalence resistance in lambs meat ;25;percent;2009;year;CL;China;16;isolates;;ESBL ;;
+42;Yang et al 2010;AnimalESBL;prevalence resistance in chicken meat ;25;percent;2009;year;CL;China;292;isolates;;ESBL ;;chicken
+42;Yang et al 2010;AnimalESBL;prevalence resistance in pork meat ;39;percent;2009;year;CL;China;38;isolates;;ESBL ;;chicken
+42;Yang et al 2010;AnimalESBL;prevalence resistance in beef meat ;23;percent;2009;year;CL;China;13;isolates;;ESBL ;;chicken
+42;Yang et al 2010;AnimalESBL;prevalence resistance in lambs meat ;25;percent;2009;year;CL;China;16;isolates;;ESBL ;;chicken
