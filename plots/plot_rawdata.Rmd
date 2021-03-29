@@ -1,0 +1,245 @@
+---
+title: "Acquisition of MDRO gut carriage amongst returning travellers"
+author: "Mo Yin"
+output: html_document
+date: "`r Sys.Date()`"
+knit: (function(inputFile, encoding) { rmarkdown::render(inputFile, encoding = encoding, output_file = paste0(substr(inputFile,1,nchar(inputFile)-4),Sys.Date(),'.html')) })
+---
+
+```{r setup, include=FALSE}
+# set working directory
+setwd('~/Documents/nBox/git_projects/TRAVELER-main/')
+
+# load libraries
+library(plotly); library(ggplot2); library(ggpubr); library(viridis)
+library(dplyr)
+library(stringr)
+library(WDI)
+library(leaflet)
+
+theme_set(theme_minimal())
+
+# load raw data 
+dat = read.csv('~/Documents/nBox/git_projects/TRAVELER-main/data/clean_dat.csv')
+```
+
+In total, `r length(unique(dat$author_yr))` studies were included in the meta-analysis. In the following graph, multiple data points may be provided by any one study.
+
+```{r, echo=F, warning=F, fig.align='center', fig.width = 16, fig.height = 8}
+
+study.plot.dat = unique(dat[,c('author_yr', 'outcome_type', 'travel_yr_value')])
+
+ggplot(study.plot.dat, aes(x = travel_yr_value)) + 
+  geom_bar() + 
+  facet_grid(.~outcome_type) +
+  labs(x = 'Years which travels took place', y = 'Count') +
+  theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1))
+```
+
+```{r, include=F}
+geo.plot.dat.wide = unique(dat[grep('human', dat$outcome_type) ,c('destination_country', 'origin_country')])
+geo.plot.dat = data.frame(type = c(rep('destination_country', nrow(geo.plot.dat.wide)), 
+                                   rep('origin_country', nrow(geo.plot.dat.wide))), 
+                          country = c(geo.plot.dat.wide$destination_country,
+                                      geo.plot.dat.wide$origin_country))
+geo.plot.dat = geo.plot.dat[!is.na(geo.plot.dat$country),]
+gps = apply(WDI_data$country, 2, toupper)
+plot.dat = merge(geo.plot.dat, gps, by = 'country', all.x = T)
+plot.dat$latitude = as.numeric(plot.dat$latitude)
+plot.dat$longitude = as.numeric(plot.dat$longitude)
+```
+
+Where the travellers are from, and where they went
+
+```{r, echo=FALSE, fig.width=10, fig.align='centre'}
+beatCol = colorFactor(palette = 'RdYlGn', plot.dat$type)
+# plot locations
+leaflet() %>%
+  setView(lng = plot.dat$longitude[1], lat = plot.dat$latitude [1], zoom = 2) %>%
+  addTiles() %>%
+  addCircleMarkers(data = plot.dat, lng = ~longitude, lat = ~latitude, color = ~beatCol(type)) %>%
+    addLegend('bottomright', pal = beatCol, values = plot.dat$type, opacity = 1)
+```
+
+Distribution of the countries' GDP 
+
+```{r, include=F}
+gdp.plot.dat.wide = as.matrix(unique(dat[grep('human', dat$outcome_type), c('destination_country', 'origin_country', 'destination_incomelvl', 'origin_incomelvl')]))
+gdp.plot.dat = rbind(gdp.plot.dat.wide[,c('destination_country', 'destination_incomelvl')], 
+                     gdp.plot.dat.wide[,c('origin_country', 'origin_incomelvl')])
+gdp.plot.dat = as.data.frame(gdp.plot.dat)
+gdp.plot.dat$type = c(rep('destination_country', nrow(gdp.plot.dat.wide)), 
+                                   rep('origin_country', nrow(gdp.plot.dat.wide)))
+gdp.plot.dat = gdp.plot.dat[!is.na(gdp.plot.dat$destination_country),]
+
+```
+
+```{r, echo=FALSE, warning=F, fig.align='center', fig.width = 8, fig.height = 5}
+ggplot(gdp.plot.dat, aes(x = destination_incomelvl)) + 
+  geom_bar() + 
+  facet_grid(.~type, drop=T) +
+  labs(x = 'Income level', y='Density') +
+  theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1))
+```
+
+## Visualising trends with time 
+
+Prevalence of MDRO carriers, grouped by GDP 
+```{r, include=F}
+# Community prevalence at destination countries - grouped by gdp 
+data.destination = dat[c(which(dat$outcome_type == 'human_prevalence_destination'), 
+                         which(dat$outcome_type == 'animal_prevalence_destination'), 
+                         which(dat$outcome_type == 'human_acquisition_origin')),]
+data.destination$outcome_type[which(data.destination$outcome_type == 'human_prevalence_destination')] = 'Community dwellers'
+data.destination$outcome_type[which(data.destination$outcome_type == 'animal_prevalence_destination')] = 'Domestic animals'
+data.destination$outcome_type[which(data.destination$outcome_type == 'human_acquisition_origin')] = 'Acquisition amongst returning travellers'
+data.destination$outcome_type = as.factor(data.destination$outcome_type)
+data.destination$outcome_type = factor(data.destination$outcome_type, levels = c('Community dwellers', 'Domestic animals', 'Acquisition amongst returning travellers'))
+data.destination$sample_sizeSQ = sqrt(data.destination$sample_size)
+```
+
+
+```{r trendwithtime, echo=FALSE, warning=F, fig.align='center', fig.width = 9, fig.height = 14}
+ggplot(data.destination, aes(x = travel_yr_value, y = outcome_value, color = destination_gdp)) + 
+  geom_point(aes(size = sample_sizeSQ)) + 
+  labs(y = 'Proportion of MDRO carriers', x = '') + 
+  scale_color_viridis(name = 'GDP of the detination countries') +
+  scale_size_continuous(name = 'Sample size') +
+  facet_grid(outcome_type ~ .) +
+  theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1), 
+        legend.position = 'bottom') 
+```
+
+## Visualising trends with GDP 
+
+Prevalence of MDRO carriers, grouped by time 
+```{r, include=F}
+# group time to discrete 
+data.destination$travel_yr_value.cat = data.destination$travel_yr_value
+data.destination$travel_yr_value.cat[grep('1999', data.destination$travel_yr_value)] = 'Before 2000'
+data.destination$travel_yr_value.cat[grep('2001', data.destination$travel_yr_value)] = '2001 - 2005'
+data.destination$travel_yr_value.cat[grep('2002', data.destination$travel_yr_value)] = '2001 - 2005'
+data.destination$travel_yr_value.cat[grep('2003', data.destination$travel_yr_value)] = '2001 - 2005'
+data.destination$travel_yr_value.cat[grep('2005', data.destination$travel_yr_value)] = '2001 - 2005'
+data.destination$travel_yr_value.cat[grep('2006', data.destination$travel_yr_value)] = '2006 - 2010'
+data.destination$travel_yr_value.cat[grep('2007', data.destination$travel_yr_value)] = '2006 - 2010'
+data.destination$travel_yr_value.cat[grep('2008', data.destination$travel_yr_value)] = '2006 - 2010'
+data.destination$travel_yr_value.cat[grep('2010', data.destination$travel_yr_value)] = '2006 - 2010'
+data.destination$travel_yr_value.cat[which(data.destination$travel_yr_value == '2009-2011')] = '2011 - 2015'
+data.destination$travel_yr_value.cat[grep('2009', data.destination$travel_yr_value)] = '2006 - 2010'
+data.destination$travel_yr_value.cat[grep('2011', data.destination$travel_yr_value)] = '2011 - 2015'
+data.destination$travel_yr_value.cat[grep('2012', data.destination$travel_yr_value)] = '2011 - 2015'
+data.destination$travel_yr_value.cat[grep('2013', data.destination$travel_yr_value)] = '2011 - 2015'
+data.destination$travel_yr_value.cat[which(data.destination$travel_yr_value == '2014-2016')] = '2016 - 2020'
+data.destination$travel_yr_value.cat[grep('2014', data.destination$travel_yr_value)] = '2011 - 2015'
+data.destination$travel_yr_value.cat[which(data.destination$travel_yr_value == '2015-2016')] = '2016 - 2020'
+data.destination$travel_yr_value.cat[grep('2015', data.destination$travel_yr_value)] = '2011 - 2015'
+data.destination$travel_yr_value.cat[grep('2016', data.destination$travel_yr_value)] = '2016 - 2020'
+data.destination$travel_yr_value.cat[grep('2017', data.destination$travel_yr_value)] = '2016 - 2020'
+data.destination$travel_yr_value.cat[grep('2018', data.destination$travel_yr_value)] = '2016 - 2020'
+data.destination$travel_yr_value.cat = as.factor(data.destination$travel_yr_value.cat)
+data.destination$travel_yr_value.cat = factor(data.destination$travel_yr_value.cat, levels = c('Before 2000', '2001 - 2005', '2006 - 2010', '2011 - 2015', '2016 - 2020'))
+```
+
+```{r trendwithgdp, echo=FALSE, warning=F, fig.align='center', fig.width = 9, fig.height = 14}
+ggplot(data.destination, aes(x = destination_gdp, y = outcome_value, color = travel_yr_value.cat)) + 
+  geom_point(aes(size = sample_sizeSQ)) + 
+  labs(y = 'Proportion of MDRO carriers', x = 'GDP of destination countries') + 
+  scale_colour_brewer(type = 'seq', name = 'Time') +
+  scale_size_continuous(name = 'Sample size') +
+  facet_grid(outcome_type ~ .) +
+  theme(legend.position = 'bottom') 
+```
+
+
+```{r, include=F}
+data.animal = data.destination[which(data.destination$outcome_type == 'Domestic animals'),]
+data.animal = data.animal[c('outcome_type', 'outcome_value', 'destination_country', 'travel_yr_value.cat')]
+data.trav = data.destination[which(data.destination$outcome_type == 'Acquisition amongst returning travellers'),]
+data.trav = data.trav[c('outcome_type', 'outcome_value', 'destination_country', 'travel_yr_value.cat')]
+data.commhuman =  data.destination[which(data.destination$outcome_type == 'Community dwellers'),]
+data.commhuman = data.commhuman[c('outcome_type', 'outcome_value', 'destination_country', 'travel_yr_value.cat')]
+
+# community dwellers against animals
+data.animal.commhuman = merge(data.commhuman, data.animal, by = c('destination_country', 'travel_yr_value.cat'), all = T)
+
+# community dwellers against travellers
+data.trav.commhuman = merge(data.commhuman, data.trav, by = c('destination_country', 'travel_yr_value.cat'), all = T)
+
+# animals against travellers
+data.trav.animal = merge(data.animal, data.trav, by = c('destination_country', 'travel_yr_value.cat'), all = T)
+
+```
+
+
+## Acquisition of MDRO amongst the returning travellers against animal and community carriage in the destination countries, merged by countries and time 
+
+```{r, include=F}
+# community dwellers against animals
+animal.comm = ggplot(data.animal.commhuman, aes(x = outcome_value.x, y = outcome_value.y)) + 
+  geom_point(color = 'green', alpha = 0.4) + 
+  geom_smooth(method = lm, se = FALSE) + 
+  labs(y = 'Proportion of MDRO carriers in domestic animals', x = 'Proportion of MDRO carriers in community dwellers')
+
+# community dwellers against travellers
+trav.comm = ggplot(data.trav.commhuman, aes(x = outcome_value.x, y = outcome_value.y)) + 
+  geom_point(color = 'green', alpha = 0.4) + 
+  geom_smooth(method = lm, se = FALSE) + 
+  labs(y = 'Proportion of MDRO carriers in returning travellers', x = 'Proportion of MDRO carriers in community dwellers')
+
+# animals against travellers
+
+trav.animal = ggplot(data.trav.animal, aes(x = outcome_value.x, y = outcome_value.y)) + 
+  geom_point(color = 'green', alpha = 0.4) + 
+  geom_smooth(method = lm, se = FALSE) + 
+  labs(y = 'Proportion of MDRO carriers in returning travellers', x = 'Proportion of MDRO carriers in domestic animals')
+
+```
+
+
+```{r traitsvs_country, echo=FALSE, warning=F, message=F, fig.align='center', fig.width = 13, fig.height = 6}
+ggarrange(animal.comm , trav.comm, trav.animal, ncol = 3)
+```
+
+
+## Acquisition of MDRO amongst the returning travellers against animal and community carriage in the destination countries, merged by GDP and time 
+
+```{r, include=F}
+data.animal = data.destination[which(data.destination$outcome_type == 'Domestic animals'),]
+data.animal = data.animal[c('outcome_type', 'outcome_value', 'destination_incomelvl', 'travel_yr_value.cat')]
+data.trav = data.destination[which(data.destination$outcome_type == 'Acquisition amongst returning travellers'),]
+data.trav = data.trav[c('outcome_type', 'outcome_value', 'destination_incomelvl', 'travel_yr_value.cat')]
+data.commhuman =  data.destination[which(data.destination$outcome_type == 'Community dwellers'),]
+data.commhuman = data.commhuman[c('outcome_type', 'outcome_value', 'destination_incomelvl', 'travel_yr_value.cat')]
+
+# community dwellers against animals
+data.animal.commhuman = merge(data.commhuman, data.animal, by = c('destination_incomelvl', 'travel_yr_value.cat'), all = T)
+
+animal.comm = ggplot(data.animal.commhuman, aes(x = outcome_value.x, y = outcome_value.y)) + 
+  geom_point(color = 'pink', alpha = 0.4) + 
+  geom_smooth(method = lm, se = FALSE) + 
+  labs(y = 'Proportion of MDRO carriers in domestic animals', x = 'Proportion of MDRO carriers in community dwellers')
+
+# community dwellers against travellers
+data.trav.commhuman = merge(data.commhuman, data.trav, by = c('destination_incomelvl', 'travel_yr_value.cat'), all = T)
+
+trav.comm = ggplot(data.trav.commhuman, aes(x = outcome_value.x, y = outcome_value.y)) + 
+  geom_point(color = 'pink', alpha = 0.4) + 
+  geom_smooth(method = lm, se = FALSE) + 
+  labs(y = 'Proportion of MDRO carriers in returning travellers', x = 'Proportion of MDRO carriers in community dwellers')
+
+# animals against travellers
+data.trav.animal = merge(data.animal, data.trav, by = c('destination_incomelvl', 'travel_yr_value.cat'), all = T)
+
+trav.animal = ggplot(data.trav.animal, aes(x = outcome_value.x, y = outcome_value.y)) + 
+  geom_point(color = 'pink', alpha = 0.4) + 
+  geom_smooth(method = lm, se = FALSE) + 
+  labs(y = 'Proportion of MDRO carriers in returning travellers', x = 'Proportion of MDRO carriers in domestic animals')
+
+```
+
+
+```{r traitsvs_gdp, echo=FALSE, warning=F, message=F, fig.align='center', fig.width = 13, fig.height = 6}
+ggarrange(animal.comm , trav.comm, trav.animal, ncol = 3)
+```
+
